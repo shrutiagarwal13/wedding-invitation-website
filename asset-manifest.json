@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wedding-invitation-website/static/css/main.063623a2.chunk.css",
-    "main.js": "/wedding-invitation-website/static/js/main.a4638f3d.chunk.js",
-    "main.js.map": "/wedding-invitation-website/static/js/main.a4638f3d.chunk.js.map",
+    "main.js": "/wedding-invitation-website/static/js/main.6892d5a4.chunk.js",
+    "main.js.map": "/wedding-invitation-website/static/js/main.6892d5a4.chunk.js.map",
     "runtime-main.js": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js",
     "runtime-main.js.map": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js.map",
     "static/js/2.50e5afbe.chunk.js": "/wedding-invitation-website/static/js/2.50e5afbe.chunk.js",
@@ -30,6 +30,7 @@
     "static/media/parents.c6186813.jpeg": "/wedding-invitation-website/static/media/parents.c6186813.jpeg",
     "static/media/pragya-pic.67b185e2.jpeg": "/wedding-invitation-website/static/media/pragya-pic.67b185e2.jpeg",
     "static/media/pragya.6430ceca.png": "/wedding-invitation-website/static/media/pragya.6430ceca.png",
+    "static/media/pratik.c562e493.jpeg": "/wedding-invitation-website/static/media/pratik.c562e493.jpeg",
     "static/media/rakshit.e882f43d.jpeg": "/wedding-invitation-website/static/media/rakshit.e882f43d.jpeg",
     "static/media/reception-bg.345ecd13.jpeg": "/wedding-invitation-website/static/media/reception-bg.345ecd13.jpeg",
     "static/media/reception-icon.92042dda.png": "/wedding-invitation-website/static/media/reception-icon.92042dda.png",
@@ -45,6 +46,6 @@
     "static/js/runtime-main.8491a7bb.js",
     "static/js/2.50e5afbe.chunk.js",
     "static/css/main.063623a2.chunk.css",
-    "static/js/main.a4638f3d.chunk.js"
+    "static/js/main.6892d5a4.chunk.js"
   ]
 }

@@ -85,7 +85,7 @@ If we begin writing about you there will be endless things to write about, your 
   let msgArjun = `
 <div class='friends-msg'>
 <p> "Chintu and Pragya, many congratulations! 🎉 </p>
-<p> Pragya I am give a piece of my heart with Chai 😉 .... Chai we have seen fun, togetherness, late night hang-outs and what not.... I love you for all the happiness and support we had all these year's for eachother. Wish you infinite happiness in this new venture of Life. Our bachelorhood will be missed. 🤪🍻 </p>
+<p> Pragya I am giving a piece of my heart with Chai 😉 .... Chai we have seen fun, togetherness, late night hang-outs and what not.... I love you for all the happiness and support we had all these year's for eachother. Wish you infinite happiness in this new venture of Life. Our bachelorhood will be missed. 🤪🍻 </p>
 <p> Lots of love to both of you!" </p>
 </div>
 `;
@@ -148,7 +148,7 @@ only Grow Eachday. God bless! </p>
 chance to see my friend getting
 married! You deserve to be loved and
 appreciated, and I'm so happy that
-you found someone who is prefect
+you found someone who is perfect
 for you. </p> <p>Congratulations!"</p></div>`;
 
   let msgSrishti = `

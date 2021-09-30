@@ -6,6 +6,20 @@ import PragyaPic from '../images/pragya-pic.jpeg';
 import IntroCard from '../components/IntroCard';
 
 const IntroductionSection = () => {
+  let chaitanyaDesc = `
+  <div>
+  <p>Engineer- MBA by profession, travel enthusiast and sports lover by heart. I like meeting new people and gather different experiences. </p> <p>
+Couldn’t have asked for a better life partner than Pragya. Both of us being from completely different fields will make life even more exciting. In such a short span, she has shown that she is so caring and adjusting which is mesmerising. Looking forward to a better phase of life.</p></div>`;
+
+  let pragyaDesc = `
+<div>
+<p>
+Microbiologist by profession, nature lover and enjoy watching movies in my leisure time. I like to travel and explore new places. </p>
+<p>Chaitanya, from the very first moment we met, I hoped it would be you, I have carried around the image of you in my heart my whole life. From this day onwards, you shall not walk alone. As I have given you my hand to hold, I give you my life to keep. I can't wait to celebrate our wedding day with you.
+</p>
+</div>
+
+`;
   return (
     <div>
       <section className='introduction-section'>
@@ -13,23 +27,23 @@ const IntroductionSection = () => {
         <div>
           <div className='container'>
             <div className='row intro-cards mt-5 mb-3'>
-              <div className='col-md-1 col-sm-0'></div>
-              <div className='col-md-5 col-sm-12'>
+              {/* <div className='col-md-1 d-none d-md-block'></div> */}
+              <div className='col-md-6 col-sm-12'>
                 <IntroCard
                   profilepic={ChaitanyaPic}
                   name='Chaitanya Agrawal'
-                  description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur'
+                  description={chaitanyaDesc}
                 />
               </div>
 
-              <div className='col-md-5 col-sm-12'>
+              <div className='col-md-6 col-sm-12'>
                 <IntroCard
                   profilepic={PragyaPic}
                   name='Pragya Lakshmi'
-                  description='Lobortis feugiat vivamus at augue eget. Duis convallis convallis tellus id. Est ante in nibh mauris. Ut venenatis tellus in metus vulputate eu. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Feugiat nibh sed pulvinar proin gravida hendrerit. Bibendum enim facilisis gravida neque convallis a. Nulla aliquet porttitor. '
+                  description={pragyaDesc}
                 />
               </div>
-              <div className='col-md-1'></div>
+              {/* <div className='col-md-1 d-none d-md-block'></div> */}
             </div>
           </div>
         </div>

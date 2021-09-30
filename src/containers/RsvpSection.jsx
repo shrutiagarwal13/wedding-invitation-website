@@ -12,10 +12,10 @@ const RsvpSection = () => {
   const [message, setMessage] = useState('');
 
   const successMsg = `
-    <div class="form-msg mt-4">
+    <div class="form-msg">
       
 
-          <div>Yay! Looking forward to your presence!</div>
+          <div>Yay! Looking forward to your esteemed presence!</div>
 
       
       </div>
@@ -23,7 +23,7 @@ const RsvpSection = () => {
     </div>`;
   const errorMsg = `<div class="form-msg mt-4">
 
-    <div>Something went wrong! Contact us at <br> Chaitanya Agrawal: +91 9876543210 </div>
+    <div>Something went wrong! Contact us at <br> Shruti Agarwal: +91 9315785908</div>
 
     </div>`;
 
@@ -101,9 +101,10 @@ const RsvpSection = () => {
   return (
     <div>
       <section className='rsvp-section'>
-        <div className='section-heading rsvp-heading'>Are you attending?</div>
+        <div className='section-heading rsvp-heading'>Save The Date</div>
         <div className='form-container'>
           <Form onSubmit={handleSubmit}>
+            <div className='form-heading'>RSVP</div>
             <Form.Group className='mb-3' controlId='NameInput'>
               {/* <Form.Label>Name</Form.Label> */}
               <Form.Control

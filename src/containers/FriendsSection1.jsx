@@ -17,6 +17,7 @@ import MaulikPic from '../images/friends/maulik.jpeg';
 import RakshitPic from '../images/friends/rakshit.jpeg';
 import ArjunPic from '../images/friends/arjun.jpeg';
 import SuyashPic from '../images/friends/suyash.jpeg';
+import PratikPic from '../images/friends/pratik.jpeg';
 import ChiragPic from '../images/friends/chirag.jpeg';
 import DishiPic from '../images/friends/dishi.jpeg';
 import AaziaPic from '../images/friends/aazia.jpeg';
@@ -240,7 +241,7 @@ Sure. </p>
                   </Carousel.Item>
                   <Carousel.Item interval={10000}>
                     <FriendsCard
-                      pic={SuyashPic}
+                      pic={PratikPic}
                       name='Pratik'
                       // intro="Chaitanya's Friend"
                       message={msgPratik}

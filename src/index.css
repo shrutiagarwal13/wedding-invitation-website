@@ -161,6 +161,8 @@ html {
 } */
 .invitation-section {
   background-color: #642711;
+  /* background-color: #730400; */
+  background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png');
 }
 
 .invitation-container {
@@ -190,6 +192,8 @@ html {
   padding: 10% 2%;
   text-align: center;
   background-color: #642711;
+  /* background-color: #730400; */
+  background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png');
   min-height: 100%;
 }
 
@@ -216,6 +220,26 @@ html {
   font-weight: 900;
   letter-spacing: 2px;
 }
+
+.lamp1 {
+  width: 80%;
+  height: 450px !important;
+  /* margin-left: 20px; */
+  /* display: block; */
+  float: right;
+}
+
+.lamp2 {
+  width: 80%;
+  height: 450px !important;
+  float: left;
+}
+
+.lamp-col {
+  padding: 0px !important;
+}
+
+/* 576 - 768 */
 
 /* --------------- INTRO SECTION ------------------------- */
 
@@ -245,7 +269,7 @@ html {
 .card-profile {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 90%;
   margin: auto;
   margin-bottom: 30px;
   border-radius: 6px;
@@ -646,7 +670,14 @@ html {
 }
 
 .rsvp-heading {
-  color: rgb(248, 241, 241);
+  color: #fff;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-weight: 800;
+  transition-duration: 0.1s;
+
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 10px #fff, 0 0 10px #f8f1f1,
+    0 0 0px #f8f1f1, 0 0 0px #f8f1f1, 0 0 0px #f8f1f1, 0 0 50px #f8f1f1;
 }
 
 .form-container {
@@ -657,24 +688,35 @@ html {
   margin: auto;
 }
 
+.form-heading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 3%;
+  color: #912031;
+  letter-spacing: 1px;
+  /* font-family: Cassandra, cursive; */
+}
+
 .rsvp-form-btn {
   border-radius: 30px;
-  padding: 2% 4% !important;
-  background-color: #86361a;
+  padding: 2% 4%;
+  background-color: #912031;
   color: white;
   border: none;
 }
 
 .rsvp-form-btn:hover,
 .rsvp-form-btn:focus {
-  background-color: #501e0c;
+  background-color: #50111b;
 }
 
 .form-msg {
   font-weight: bold;
-  font-size: 1.2rem;
-  font-family: Cassandra, cursive;
-  color: #86361a;
+  font-size: 1.75rem;
+  font-family: cursive;
+  color: #912031;
+  margin-top: 7%;
+  line-height: 2;
 }
 
 /* ------------- MEDIA QUERIES ----------------------- */
@@ -718,6 +760,19 @@ html {
 
   .form-container {
     width: 90%;
+    margin: 6% auto;
+  }
+
+  .form-heading {
+    font-size: 1.8rem;
+  }
+
+  .form-msg {
+    font-size: 1rem;
+  }
+
+  .rsvp-form-btn {
+    padding: 3% 5%;
   }
 
   /* .venue-card {
@@ -771,6 +826,18 @@ html {
     margin-bottom: 20px;
   }
 
+  .content-container {
+    background-image: url('../src/images/invite-bg4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .invitation-container .col-sm-12,
+  .invitation-container .col-12 {
+    padding: 0 !important;
+  }
+
   .friend-name {
     text-align: center;
     margin-top: 6px;
@@ -785,6 +852,11 @@ html {
   .friends-slider-container {
     padding-bottom: 50px;
   }
+  .countdown-container {
+    bottom: -3vh;
+    width: 80%;
+    left: 10%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -795,8 +867,18 @@ html {
     margin: auto;
   }
 
+  .countdown-container {
+    bottom: -3vh;
+    width: 80%;
+    left: 10%;
+  }
+
   .friend-name {
     margin-left: 15%;
+  }
+
+  .content-container {
+    /* margin-top: 2%; */
   }
 }
 

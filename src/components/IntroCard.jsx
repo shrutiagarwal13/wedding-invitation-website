@@ -13,7 +13,12 @@ const IntroCard = (props) => {
         </div>
         <div className='table'>
           <div className='card-caption my-3'>{props.name}</div>
-          <p className='card-description'>{props.description}</p>
+          <p
+            className='card-description'
+            dangerouslySetInnerHTML={{ __html: props.description }}
+          >
+            {/* {props.description} */}
+          </p>
         </div>
       </div>
       {/* <div id='curve' class='intro-card'>

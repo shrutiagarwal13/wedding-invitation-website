@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/wedding-invitation-website/static/css/main.d9c2e3e2.chunk.css",
-    "main.js": "/wedding-invitation-website/static/js/main.6892d5a4.chunk.js",
-    "main.js.map": "/wedding-invitation-website/static/js/main.6892d5a4.chunk.js.map",
+    "main.css": "/wedding-invitation-website/static/css/main.4d122b02.chunk.css",
+    "main.js": "/wedding-invitation-website/static/js/main.46cd599b.chunk.js",
+    "main.js.map": "/wedding-invitation-website/static/js/main.46cd599b.chunk.js.map",
     "runtime-main.js": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js",
     "runtime-main.js.map": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js.map",
     "static/js/2.50e5afbe.chunk.js": "/wedding-invitation-website/static/js/2.50e5afbe.chunk.js",
     "static/js/2.50e5afbe.chunk.js.map": "/wedding-invitation-website/static/js/2.50e5afbe.chunk.js.map",
     "index.html": "/wedding-invitation-website/index.html",
-    "static/css/main.d9c2e3e2.chunk.css.map": "/wedding-invitation-website/static/css/main.d9c2e3e2.chunk.css.map",
+    "static/css/main.4d122b02.chunk.css.map": "/wedding-invitation-website/static/css/main.4d122b02.chunk.css.map",
     "static/js/2.50e5afbe.chunk.js.LICENSE.txt": "/wedding-invitation-website/static/js/2.50e5afbe.chunk.js.LICENSE.txt",
     "static/media/index.css": "/wedding-invitation-website/static/media/rsvp-bg.d2ec9daf.jpg",
     "static/media/Invitation-Canva.288cbdab.png": "/wedding-invitation-website/static/media/Invitation-Canva.288cbdab.png",
@@ -45,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.8491a7bb.js",
     "static/js/2.50e5afbe.chunk.js",
-    "static/css/main.d9c2e3e2.chunk.css",
-    "static/js/main.6892d5a4.chunk.js"
+    "static/css/main.4d122b02.chunk.css",
+    "static/js/main.46cd599b.chunk.js"
   ]
 }

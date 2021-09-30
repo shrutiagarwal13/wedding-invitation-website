@@ -1,22 +1,13 @@
 import './App.css';
-import VenueSection from './components/VenueSection';
-import FriendsSection from './containers/FriendsSection';
-import IntroductionSection from './containers/IntroductionSection';
-import InvitationSection from './containers/InvitationSection';
-import MainSection from './containers/MainSection';
-import ParentsSection from './containers/ParentsSection';
-import RsvpSection from './containers/RsvpSection';
+import MainPage from './pages/MainPage';
+import BrowserRouter from 'react-router-dom/BrowserRouter';
 
 function App() {
   return (
     <div className='App'>
-      <MainSection />
-      <InvitationSection />
-      <IntroductionSection />
-      <ParentsSection />
-      <FriendsSection />
-      <VenueSection />
-      <RsvpSection />
+      <BrowserRouter basename='/wedding-invitation-website'>
+        <MainPage exact path='/' />
+      </BrowserRouter>
     </div>
   );
 }

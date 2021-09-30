@@ -101,7 +101,7 @@ const RsvpSection = () => {
   return (
     <div>
       <section className='rsvp-section'>
-        <div className='section-heading'>Are you attending?</div>
+        <div className='section-heading rsvp-heading'>Are you attending?</div>
         <div className='form-container'>
           <Form onSubmit={handleSubmit}>
             <Form.Group className='mb-3' controlId='NameInput'>

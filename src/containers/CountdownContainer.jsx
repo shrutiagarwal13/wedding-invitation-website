@@ -28,17 +28,17 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 
 const CountdownContainer = () => {
   return (
-    <Container fluid>
-      <Row>
-        {/* <Col md={1}> </Col> */}
-        <Col md={12}>
-          <div className='countdown-container'>
-            <Countdown date='2021-12-06T20:00:00' renderer={renderer} />
-          </div>
-        </Col>
-        {/* <Col md={1}> </Col> */}
-      </Row>
-    </Container>
+    // <Container fluid>
+    // <Row>
+    // <Col md={1}> </Col>
+    // <Col md={12}>
+    <div className='countdown-container'>
+      <Countdown date='2021-12-06T20:00:00' renderer={renderer} />
+    </div>
+    //     {/* </Col> */}
+    //     {/* <Col md={1}> </Col> */}
+    //   {/* </Row> */}
+    // {/* </Container> */}
   );
 };
 

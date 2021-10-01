@@ -9,7 +9,6 @@ import {
 } from 'react-bootstrap';
 import FriendPic from '../images/friend-avatar.png';
 import FriendsCard from '../components/FriendsCard';
-import MessagesBg from '../images/friends-bg1.mp4';
 
 import VikasPic from '../images/friends/vikas.jpeg';
 import NAVPic from '../images/friends/nav.jpeg';

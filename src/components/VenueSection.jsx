@@ -7,7 +7,6 @@ import ReceptionBG from '../images/reception-bg.jpeg';
 import WeddingIcon from '../images/wedding-icon1.png';
 import SangeetIcon from '../images/sangeet-icon1.png';
 import ReceptionIcon from '../images/reception-icon.png';
-import FireworksVideo from '../images/firework1.mp4';
 
 const VenueSection = () => {
   let sangeetVenue = `

@@ -1,5 +1,4 @@
 import React from 'react';
-import Invitation from '../images/Invitation-Canva.png';
 import InviteContainer from './InviteContainer';
 // import party from 'party-js';
 

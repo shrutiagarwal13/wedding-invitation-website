@@ -55,20 +55,6 @@ On behalf of the "Groom squad" I would like to tell you Pragya you are a very lu
   return (
     <div>
       <section className='friends-section'>
-        <div className='video-container'>
-          <video
-            loop={true}
-            autoPlay='autoplay'
-            id='vid'
-            className='friends-msgs-video'
-            // controls='true'
-            playsinline='true'
-            disablePictureInPicture='true'
-            muted
-          >
-            <source type='video/mp4' src={MessagesBg}></source>
-          </video>
-        </div>
         <div className='friends-msgs-container'>
           <div className='section-heading'>Our Friends</div>
           <Container className='friends-slider-container'>

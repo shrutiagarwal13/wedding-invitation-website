@@ -169,7 +169,7 @@ html {
 
 .invitation-container {
   /* padding: % 0; */
-  min-height: 80vh;
+  /* min-height: 80vh; */
 }
 
 .invitation-container .container-fluid {
@@ -821,6 +821,20 @@ html {
   .form-container {
     width: 70%;
   }
+
+  .card-profile {
+    width: 100%;
+    min-height: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-container {
+    background-image: url('../src/images/invite-bg4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -828,13 +842,6 @@ html {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 20px;
-  }
-
-  .content-container {
-    background-image: url('../src/images/invite-bg4.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .invitation-container .col-sm-12,
@@ -880,10 +887,6 @@ html {
   .friend-name {
     margin-left: 15%;
   }
-
-  .content-container {
-    /* margin-top: 2%; */
-  }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -892,6 +895,17 @@ html {
   }
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+  .sangeet-function-name {
+    font-size: 1.2rem;
+  }
+
+  .countdown-container {
+    width: 80%;
+    bottom: -3vh;
+    left: 10%;
+  }
+}
 /* #ChaitanyaGotPragyaed */
 /* NYKFLO4ASPIN34 */
 /* NYKUGAIESPIN33 */

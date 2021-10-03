@@ -18,6 +18,7 @@ import ArjunPic from '../images/friends/arjun.jpeg';
 import SuyashPic from '../images/friends/suyash.jpeg';
 import PratikPic from '../images/friends/pratik.jpeg';
 import ChiragPic from '../images/friends/chirag.jpeg';
+import JenishPic from '../images/friends/jenish.jpeg';
 import DishiPic from '../images/friends/dishi.jpeg';
 import AaziaPic from '../images/friends/aazia.jpeg';
 import ArunimaPic from '../images/friends/arunima.jpeg';
@@ -116,6 +117,33 @@ If we begin writing about you there will be endless things to write about, your 
 </div>
 `;
 
+  let msgPriya = `
+<div class='friends-msg'>
+<p>Dear Chintu, I think of you and my mind immediately goes back to a hundred thousand stupid, nonsensical moments we have spent together. Like .. I cant seem to track any logic in these memories but my heart feels so full. I can only remember what FUN we had, how hard we danced, how much we ate, how much we bunked and just chilled… </p>
+<p>Those deep moments when all of us sat on marine drive ( we thought you were reflecting on life and you were actually counting there are 108 street lights there 😛)  or walking along the beach and landing up on Devdas street subway…
+Shirpur days, thumps up and lays, the exam hall… i mean i cant even write everything down here… because in all true sense we just grew up together and got mature together ( aise he keh rahe hoon tera confirm nai hae matlab) But all and all you have been such a great friend.. A friend kne can count on , a friend who supports jo matter what.. </p>
+<p>You are one of the few souls who have managed to remain innocent and I cherish that about you. </p>
+<p>I hope this next chapter of your life is filled with more joy, more love and many more great memories. </p>
+
+
+</div>
+
+`;
+
+  let msgJenish = `
+<div>
+<p>
+Congratulations Bhai!! You have finally found that one person you get to annoy all through your life.  </p>
+<p>Here's to a lifetime full of happiness and love. Cheers 🥂 <br />
+Thanks for inviting us to eat and drink while you get married 😆 </p>
+<p>And, Pragya welcome to the crazy Fnatic family!! </p>
+</p>
+
+
+</div>
+
+`;
+
   let msgDishi = `
 <div class = 'friends-msg'>
 <p>"A beautiful soul with golden
@@ -187,8 +215,14 @@ Sure. </p>
             <Row>
               <Col md={8}>
                 <div className='sub-heading'>Chaitanya's Groomsmen</div>
-                <Carousel controls={false} nextLabel='' prevLabel='' fade>
-                  <Carousel.Item interval={8000}>
+                <Carousel
+                  controls={false}
+                  nextLabel=''
+                  prevLabel=''
+                  fade
+                  // vertical
+                >
+                  <Carousel.Item>
                     {/* <Row>
                         <Col > */}
                     <FriendsCard
@@ -198,7 +232,7 @@ Sure. </p>
                       message={msgVikas}
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={8000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={NAVPic}
                       name='Neha, Akash and Vineet'
@@ -206,7 +240,7 @@ Sure. </p>
                       message={msgNAV}
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={6000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={MaulikPic}
                       name='Maulik'
@@ -214,7 +248,7 @@ Sure. </p>
                       message={msgMaulik}
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={7000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={RakshitPic}
                       name='Rakshit'
@@ -222,7 +256,7 @@ Sure. </p>
                       message={msgRakshit}
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={6000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={ArjunPic}
                       name='Arjun'
@@ -230,7 +264,7 @@ Sure. </p>
                       message={msgArjun}
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={4000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={SuyashPic}
                       name='Suyash'
@@ -238,7 +272,7 @@ Sure. </p>
                       message={msgSuyash}
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={10000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={PratikPic}
                       name='Pratik'
@@ -246,12 +280,28 @@ Sure. </p>
                       message={msgPratik}
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={10000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={ChiragPic}
                       name='Chirag Jain'
                       // intro="Chaitanya's Friend"
                       message={msgChirag}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <FriendsCard
+                      pic={ChiragPic}
+                      name='Priya'
+                      // intro="Chaitanya's Friend"
+                      message={msgPriya}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <FriendsCard
+                      pic={JenishPic}
+                      name='Jenish'
+                      // intro="Chaitanya's Friend"
+                      message={msgJenish}
                     />
                   </Carousel.Item>
                 </Carousel>
@@ -265,7 +315,7 @@ Sure. </p>
                 </div>
 
                 <Carousel controls={false} nextLabel='' prevLabel='' fade>
-                  <Carousel.Item interval={10000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={DishiPic}
                       name='Dishi Paul'
@@ -273,7 +323,7 @@ Sure. </p>
                       message={msgDishi}
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={10000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={SrishtiPic}
                       name='Srishti Singh'
@@ -281,7 +331,7 @@ Sure. </p>
                       message={msgSrishti}
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={10000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={ArunimaPic}
                       name='Arunima'
@@ -289,7 +339,7 @@ Sure. </p>
                       message={msgArunima}
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={10000}>
+                  <Carousel.Item>
                     <FriendsCard
                       pic={AaziaPic}
                       name='Aazia & Shafeek'

@@ -10,7 +10,7 @@ const InvitationSection = () => {
         alt='invitation poster'
         className='invitation-poster'
       /> */}
-      <InviteContainer />
+      <InviteContainer dataAos='fade-up' />
     </section>
   );
 };

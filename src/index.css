@@ -131,7 +131,7 @@ html {
 /* -------------- COUNTDOWN -------------------------- */
 
 .countdown-container {
-  background-color: #dbab25;
+  background-color: #907018;
   z-index: 10;
   width: 60%;
   text-align: center;
@@ -292,6 +292,9 @@ html {
   overflow: hidden;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-color: #86361a !important;
+  border-width: 4px !important;
+  border: 4px solid #86361a;
   /* box-shadow: 0 16px 38px -12px rgb(0 0 0 / 56%),
     0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%); */
   transition-duration: 0.15s;
@@ -376,6 +379,142 @@ html {
   text-align: justify;
 }
 
+/* --------FAMILY SECTION ------- */
+
+.family-section {
+  /* background: rgb(129, 102, 102);
+  background: linear-gradient( */
+  /* 180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(203, 64, 93, 1) 100%
+  ); */
+  /* background-color: #730400;
+
+  background-image: url('https://www.transparenttextures.com/patterns/black-scales.png'); */
+  background-image: url('../src/images/family-bg1.png');
+  /* background-size: cover; */
+
+  padding-bottom: 5%;
+}
+
+.family-section .carousel-indicators {
+  height: 1px;
+  /* padding-top: 1px; */
+  position: absolute;
+  bottom: 0 !important;
+}
+
+.family-section .carousel-indicators button {
+  /* margin-top: 1%; */
+  border: 1px transparent solid;
+  width: 30px;
+
+  /* border-radius: 100%; */
+  margin-right: 1.5%;
+  background-color: rgba(109, 84, 14, 0.6);
+}
+
+.family-section .carousel-indicators .active {
+  background-color: #6d540e;
+}
+
+.bubble {
+  /* height: 250px; */
+  width: 100%;
+  padding: 5%;
+  padding-bottom: 2%;
+  min-height: 200px;
+  /* min-width: 200px; */
+  background: ivory;
+  display: block;
+  margin: 20px auto;
+  border-radius: 20px;
+  /* margin-top: 50px; */
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.pointer {
+  height: 40px;
+  width: 40px;
+  background: ivory;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  /* border-radius: 0 0 0 12px; */
+  /* margin-left: -14px; */
+  position: relative;
+  /* top: calc(0.5vh - 250px); */
+}
+
+.parents-pointer {
+  border-radius: 0 0 12px 0;
+  margin-top: -40px;
+  left: calc(0.5vw - 31%);
+}
+
+.groom-sibling-pointer {
+  margin-left: -20px;
+  top: calc(0.5vh - 50%);
+  border-radius: 0 0 0 12px;
+}
+
+.bride-sibling-pointer {
+  margin-right: -15px;
+  top: calc(0.5vh - 50%);
+  border-radius: 0 12px 0 0;
+}
+
+.bubble-img-container img {
+  border-radius: 100%;
+  width: 100%;
+  display: block;
+  position: relative;
+  border: 6px white solid;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* left: 2vw; */
+}
+
+.sibling-msg .family-member-intro {
+  text-align: center;
+  /* position: relative;
+  top: 18%; */
+  font-weight: 700;
+  color: #86361a;
+  margin-top: 15%;
+  /* font-size: 1.5rem; */
+}
+
+.sibling-msg .family-member-name {
+  font-family: Cassandra, cursive;
+  font-size: 1.2rem;
+}
+
+.sibling-msg .family-member-relation {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.sibling-msg .col-md-7,
+.sibling-msg .col-md-5 {
+  padding: 0px !important;
+}
+
+.parents-msg .family-member-intro {
+  text-align: left;
+  position: relative;
+  top: 35%;
+  font-weight: 700;
+  font-family: Cassandra, cursive;
+  color: #86361a;
+  font-size: 1.5rem;
+}
+
+.parents-msg .bubble {
+  min-height: 292px !important;
+}
+
 /* -------------------------- FRIENDS SECTION ------------------------- */
 
 .friends-section {
@@ -453,25 +592,25 @@ html {
   margin-top: 5%;
 }
 
-.carousel-indicators {
+.friends-section .carousel-indicators {
   height: 1px;
   /* padding-top: 1px; */
   position: absolute;
   bottom: -15px !important;
 }
 
-.carousel-indicators button {
+.friends-section .carousel-indicators button {
   /* margin-top: 1%; */
   border: 1px transparent solid;
   width: 30px;
 
   /* border-radius: 100%; */
   margin-right: 1.5%;
-  background-color: rgba(243, 189, 189, 0.5);
+  background-color: rgba(243, 189, 189, 0.7);
 }
 
-.carousel-indicators .active {
-  background-color: #b4233e;
+.friends-section .carousel-indicators .active {
+  background-color: #7e1427;
 }
 
 .friends-card {
@@ -534,6 +673,7 @@ html {
   /* font-family: cursive; */
   /* font-size: 1.2rem; */
   /* font-weight: bold; */
+  font-weight: 500;
 }
 
 .bridesmaid-heading {

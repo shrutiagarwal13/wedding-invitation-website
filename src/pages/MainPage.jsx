@@ -7,6 +7,7 @@ import MainSection from '../containers/MainSection';
 import ParentsSection from '../containers/ParentsSection';
 import RsvpSection from '../containers/RsvpSection';
 import party from 'party-js';
+import FamilySection from '../containers/FamilySection';
 
 function MainPage() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function MainPage() {
       <InvitationSection />
       <IntroductionSection />
       {/* <ParentsSection /> */}
+      <FamilySection />
       <FriendsSection1 />
       <VenueSection />
       <RsvpSection />

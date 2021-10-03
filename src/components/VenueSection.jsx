@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import VenueCard from './VenueCard';
-import WeddingBG from '../images/wedding-bg.jpeg';
+import WeddingBG from '../images/wedding-bg.jpg';
 import SangeetBG from '../images/sangeet-bg.jpg';
 // import ReceptionBG from '../images/reception-bg.jpeg';
 import WeddingIcon from '../images/wedding-icon1.png';

@@ -23,6 +23,8 @@ import PriyankaPic from '../images/family/priyanka.jpg';
 import AbhinavPic from '../images/family/abhinav.jpeg';
 import AarohiPic from '../images/family/aarohi.jpeg';
 import ShikhaPic from '../images/family/shikha.jpeg';
+import KashviPic from '../images/family/kashvi.jpg';
+import RahulPic from '../images/family/rahul.jpg';
 
 const FamilySection = () => {
   let pragyaParentsMsg = `
@@ -137,9 +139,9 @@ You correct me when I am wrong but the way you do, makes me inspired.😇 </p>
 <div className='family-msg'>
 
 <p>"Congratulations Bhaiya and Bhabhii!!🤩 </p>
-<p>We have been waiting for this day and meeting our bhabhi for so long. The wait couldn’t have come to a better end!🥰 Bhaiya, you’ve always treated us like your real sisters, pampering us with all our demands. At every birthday, how you force us to choose a gift and transfer money 💰 ultimately has been troublesome! From us spending our summer vacations in Bareilly playing cricket to you taking us out for clubbing, it has been hell of a journey! Goa still pending👀 </p>
+<p>We have been waiting for this day and meeting our bhabhi for so long. The wait couldn’t have come to a better end!🥰 Bhaiya, you’ve always treated us like your real sisters, pampering us with all our demands. At every birthday, how you force us to choose a gift and transfer money 💰 ultimately has been troublesome! From us spending our summer vacations in Bareilly playing cricket to you taking us out for clubbing, it has been hell of a journey!</p>
 <p>We look forward to spending our vacations with the newly added member to our family. Bhabhi, so excited to partner up with you to make fun of bhaiya. Yes, you can count us to be on your side, always!😉 </p>
-<p> To the eldermost yet the coolest bhaiii and the eldermost yet the sweetest bhabhi, we wish you both the happiest married life. Cant keep calm for the most joyous celebrations!❤️❤️❤️ </p>
+<p> To the eldermost yet the coolest bhaiii and the eldermost yet the sweetest bhabhi, we wish you both the happiest married life. Cant keep calm for the most joyous celebrations!❤️ </p>
 
 <p>P.S. bhabhi, you are not allowed to call us ‘di’.💝 "</p>
 
@@ -219,8 +221,25 @@ May everyday of your life hereafter hold wonderful shared experiences 😍🥰 <
 `;
 
   let shikhaMsg = `
-<div className='friend-msg'>
+<div className='family-msg'>
 <p>"The Warmest congratulations to the newly weds. Wishing that you two have an amazing life ahead. First year of marriage is a blessing. It will get harder, but it doesn't mean that you won't cope with difficulties. Keep supporting each other and learn to compromise, and you'll stay together forever." </p>
+
+</div>
+`;
+
+  let rahulMsg = `
+<div className='family-msg'>
+
+<p>"Two beautiful hearts joining together with a promise of never letting go of each other. Our warm wishes of lifetime happiness, joy, and prosperity for Pragya and Chaitanya Ji... </p>
+</p>Congratulations! May God always guide you both to lead a married life full of love, compassion, and purity. May you both find true happiness in the prayers! </p>
+</div>
+`;
+
+  let kashviMsg = `
+<div className='family-msg'>
+<p>
+Wishing you and Mausaji a happy  Marital bliss... God bless you both and Good Luck as you both are entering in your new phase of life...
+</p>
 
 </div>
 `;
@@ -480,6 +499,30 @@ May everyday of your life hereafter hold wonderful shared experiences 😍🥰 <
                       message={sonalMsg}
                       pic={SonalPic}
                       name='Sonal, Ankit & Anika'
+                      relation="Bride's Cousin"
+                      customClass='sibling-msg'
+                      customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <SpeechBubble
+                      message={kashviMsg}
+                      pic={KashviPic}
+                      name='Kashvi & Yahvi'
+                      relation="Bride's Nieces"
+                      customClass='sibling-msg'
+                      customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <SpeechBubble
+                      message={rahulMsg}
+                      pic={RahulPic}
+                      name='Neha & Rahul'
                       relation="Bride's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'

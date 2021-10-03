@@ -8,13 +8,14 @@ import MainSection from '../containers/MainSection';
 import RsvpSection from '../containers/RsvpSection';
 import party from 'party-js';
 import FamilySection from '../containers/FamilySection';
+import HashtagSection from '../containers/HashtagSection';
 
 function MainPage() {
   useEffect(() => {
     document
       .querySelector('.main-page')
       .addEventListener('click', function (e) {
-        party.confetti(this, { count: party.variation.range(300, 400) });
+        party.confetti(this, { count: party.variation.range(1000, 1200) });
       });
   }, []);
 
@@ -27,6 +28,7 @@ function MainPage() {
       <FamilySection />
       <FriendsSection1 />
       <VenueSection />
+      <HashtagSection />
       <RsvpSection />
     </div>
   );

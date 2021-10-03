@@ -13,11 +13,11 @@
   src: url(./fonts/cassandra-personal-use.regular.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Fondamento&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700;900&display=swap'); */
 
 body {
   margin: 0 !important;
@@ -76,7 +76,7 @@ html {
 /* -------------- MAIN SECTION ----------------------- */
 
 .main-section {
-  background-image: url('./images/main-section-bg-compressed\ \(1\).jpg');
+  background-image: url('./images/main-section-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
@@ -530,8 +530,9 @@ html {
     rgba(209, 148, 19, 1) 100%
   );
   background-image: url('../src/images/friends-msgs-bg.jpg');
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-bottom: 7%;
   /* position: relative; */
   /* overflow: hidden; */
@@ -769,7 +770,7 @@ html {
 
 .rsvp-heading {
   color: #fff;
-  font-family: 'Montserrat';
+  font-family: 'Red Rose';
   text-transform: uppercase;
   font-weight: 800;
   transition-duration: 0.1s;
@@ -817,11 +818,28 @@ html {
   line-height: 2;
 }
 
+/* ------ Hashtag -------- */
+
+.hashtag-section {
+  background-image: url('../src/images/wood-bg1.jpeg');
+  background-size: cover;
+  background-position: center center;
+  padding: 2%;
+  font-size: 5.5vmax;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Red Rose', 'Montserrat', sans-serif;
+  border: 10px solid black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+}
+
 /* ------------- MEDIA QUERIES ----------------------- */
 
 @media screen and (max-width: 450px) {
   .main-section {
-    background-image: url('./images/main-section-bg-mobile1-compressed.jpg');
+    background-image: url('./images/main-section-bg-mobile1.jpg');
     background-position: center bottom !important;
     background-repeat: no-repeat;
     background-size: cover;

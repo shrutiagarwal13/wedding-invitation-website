@@ -1,27 +1,20 @@
-import { React, useEffect } from 'react';
-import {
-  Container,
-  Row,
-  Col,
-  Carousel,
-  Card,
-  CardGroup,
-} from 'react-bootstrap';
-import FriendPic from '../images/friend-avatar.png';
+import { React } from 'react';
+import { Container, Row, Col, Carousel } from 'react-bootstrap';
+// import FriendPic from '../images/friend-avatar.png';
 import FriendsCard from '../components/FriendsCard';
 
-import VikasPic from '../images/friends/vikas.jpeg';
-import NAVPic from '../images/friends/nav.jpeg';
-import MaulikPic from '../images/friends/maulik.jpeg';
+import VikasPic from '../images/friends/vikas.jpg';
+import NAVPic from '../images/friends/nav.jpg';
+import MaulikPic from '../images/friends/maulik.jpg';
 import RakshitPic from '../images/friends/rakshit.jpeg';
-import ArjunPic from '../images/friends/arjun.jpeg';
+import ArjunPic from '../images/friends/arjun.jpg';
 import SuyashPic from '../images/friends/suyash.jpeg';
 import PratikPic from '../images/friends/pratik.jpeg';
-import ChiragPic from '../images/friends/chirag.jpeg';
+import ChiragPic from '../images/friends/chirag.jpg';
 import JenishPic from '../images/friends/jenish.jpeg';
 import DishiPic from '../images/friends/dishi.jpeg';
-import AaziaPic from '../images/friends/aazia.jpeg';
-import ArunimaPic from '../images/friends/arunima.jpeg';
+import AaziaPic from '../images/friends/aazia.jpg';
+import ArunimaPic from '../images/friends/arunima.jpg';
 import SrishtiPic from '../images/friends/srishti.jpeg';
 
 const FriendsSection1 = () => {

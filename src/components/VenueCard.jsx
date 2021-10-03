@@ -30,6 +30,7 @@ const VenueCard = (props) => {
             <a
               href={props.mapsLink}
               className='btn venue-card-map-button'
+              rel='noreferrer'
               target='_blank'
             >
               <FontAwesomeIcon

@@ -8,7 +8,7 @@ const ParentsBlock = (props) => {
         <Col md={1} />
 
         <Col md={3}>
-          <img src={props.parentsPic} className='parents-pic' />
+          <img src={props.parentsPic} className='parents-pic' alt='' />
         </Col>
         <Col md={7}>
           <div className='parents-block'>{props.parentsMsg}</div>

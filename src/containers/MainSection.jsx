@@ -26,8 +26,8 @@ const MainSection = () => {
               <img
                 src={AndName}
                 alt=''
-                className='main-names-img'
-                className='mobile-title-img and-img'
+                // className=''
+                className='mobile-title-img and-img main-names-img'
               />
               <br />
               <img src={PragyaName} alt='' className='main-names-img' />

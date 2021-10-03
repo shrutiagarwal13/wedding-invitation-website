@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react';
+import { React, useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 
 const RsvpSection = () => {
@@ -21,11 +21,11 @@ const RsvpSection = () => {
       </div>
     
     </div>`;
-  const errorMsg = `<div class="form-msg mt-4">
+  // const errorMsg = `<div class="form-msg mt-4">
 
-    <div>Something went wrong! Contact us at <br> Shruti Agarwal: +91 9315785908</div>
+  //   <div>Something went wrong! Contact us at <br> Shruti Agarwal: +91 9315785908</div>
 
-    </div>`;
+  //   </div>`;
 
   const handleChange = (e) => {
     const { name, value } = e.target;

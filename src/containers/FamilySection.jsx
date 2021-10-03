@@ -1,25 +1,25 @@
 import React from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
-import GroomSideSpeechBubble from '../components/GroomSideSpeechBubble';
-import BrideSideSpeechBubble from '../components/BrideSideSpeechBubble.jsx';
+// import SpeechBubble from '../components/SpeechBubble';
+import SpeechBubble from '../components/SpeechBubble.jsx';
 import ParentsSpeechBubble from '../components/ParentsSpeechBubble.jsx';
 
-import PragyaParentsPic from '../images/family/pragya_parents.jpeg';
-import ChaitanyaParentsPic from '../images/family/chaitanya_parents.jpeg';
+import PragyaParentsPic from '../images/family/pragya_parents.jpg';
+import ChaitanyaParentsPic from '../images/family/chaitanya_parents.jpg';
 import pragyaBrotherPic from '../images/family/pragya_brother.jpeg';
 import ShubhiHarshitPic from '../images/family/shubhi_harshit.jpeg';
-import ShreshthSweetyPic from '../images/family/shreshth_sweety.jpeg';
+import ShreshthSweetyPic from '../images/family/shreshth_sweety.jpg';
 import ManishKritiPic from '../images/family/manish_kriti.jpeg';
 import PranetaPic from '../images/family/praneta1.jpeg';
 import AditPic from '../images/family/adit.jpeg';
 import MuditPic from '../images/family/mudit.jpeg';
 import KanuPic from '../images/family/kanu.jpeg';
-import VasuPic from '../images/family/vasu.jpeg';
-import VinniPic from '../images/family/vinni.jpeg';
+import VasuPic from '../images/family/vasu.jpg';
+import VinniPic from '../images/family/vinni.jpg';
 import ShrutiShreshthaPic from '../images/family/shruti_shreshtha.jpeg';
 
-import SonalPic from '../images/family/sonal.jpeg';
-import PriyankaPic from '../images/family/priyanka.jpeg';
+import SonalPic from '../images/family/sonal.jpg';
+import PriyankaPic from '../images/family/priyanka.jpg';
 import AbhinavPic from '../images/family/abhinav.jpeg';
 import AarohiPic from '../images/family/aarohi.jpeg';
 import ShikhaPic from '../images/family/shikha.jpeg';
@@ -235,7 +235,7 @@ May everyday of your life hereafter hold wonderful shared experiences 😍🥰 <
         <div className='family-msg-container'>
           <Container>
             <Row>
-              <Col xs={12} sm={6} md={6}>
+              <Col xs={12} sm={12} md={6}>
                 <ParentsSpeechBubble
                   message={chaitanyaParentsMsg}
                   pic={ChaitanyaParentsPic}
@@ -245,7 +245,7 @@ May everyday of your life hereafter hold wonderful shared experiences 😍🥰 <
                   customPointerClass='parents-pointer'
                 />
               </Col>
-              <Col xs={12} sm={6} md={6}>
+              <Col xs={12} sm={12} md={6}>
                 <ParentsSpeechBubble
                   message={pragyaParentsMsg}
                   pic={PragyaParentsPic}
@@ -256,84 +256,6 @@ May everyday of your life hereafter hold wonderful shared experiences 😍🥰 <
                 />
               </Col>
             </Row>
-            {/* <Row>
-              <Col xs={12} sm={4} md={4}>
-                <SpeechBubble
-                  message={pragyaBrotherMsg}
-                  pic={pragyaBrotherPic}
-                  name='Rishav'
-                  relation="Brides's Brother"
-                  customClass='sibling-msg'
-                />
-                <SpeechBubble
-                  message={shrutiShreshthaMsg}
-                  pic={ShrutiShreshthaPic}
-                  name='Shruti & Shreshtha'
-                  relation="Groom's Cousins"
-                  customClass='sibling-msg'
-                />
-                <SpeechBubble
-                  message={sonalMsg}
-                  pic={SonalPic}
-                  name='Sonal Ankit Anika'
-                  relation="Bride's Cousin"
-                  customClass='sibling-msg'
-                />
-              </Col>
-              <Col xs={12} sm={4} md={4}>
-                <SpeechBubble
-                  message={pranetaMsg}
-                  pic={PranetaPic}
-                  name='Praneta'
-                  relation="Groom's Sister"
-                  customClass='sibling-msg'
-                />
-                <SpeechBubble
-                  message={shubhiHarshitMsg}
-                  pic={ShubhiHarshitPic}
-                  name='Shubhi & Harshit'
-                  relation="Brides's Cousin"
-                  customClass='sibling-msg'
-                />
-                <SpeechBubble
-                  message={vasuMsg}
-                  pic={VasuPic}
-                  name='Vatsal'
-                  relation="Groom's Cousin"
-                  customClass='sibling-msg'
-                />
-              </Col>
-              <Col xs={12} sm={4} md={4}>
-                <SpeechBubble
-                  message={vikramMsg}
-                  pic={PranetaPic}
-                  name='Vikram'
-                  relation="Groom's Jiju"
-                  customClass='sibling-msg'
-                />
-                <SpeechBubble
-                  message={shreshthSweetyMsg}
-                  pic={ShreshthSweetyPic}
-                  name='Shreshth & Sweety'
-                  relation="Brides's Cousin"
-                  customClass='sibling-msg'
-                />
-                <SpeechBubble
-                  message={muditMsg}
-                  pic={MuditPic}
-                  name='Akarsh'
-                  relation="Groom's Cousin"
-                  customClass='sibling-msg'
-                />
-                <SpeechBubble
-                  message={manishKirtiMsg}
-                  pic={ManishKritiPic}
-                  name='Manish, Kirti & Aarav'
-                  relation="Brides's Cousin"
-                  customClass='sibling-msg'
-                />
-              </Col>
-            </Row> */}
 
             <Row className='mt-5'>
               <Col md={12}>
@@ -344,86 +266,102 @@ May everyday of your life hereafter hold wonderful shared experiences 😍🥰 <
                   fade
                   // vertical
                 >
-                  <Carousel.Item interval={8000}>
+                  <Carousel.Item>
                     {/* <Row>
                         <Col > */}
-                    <GroomSideSpeechBubble
+                    <SpeechBubble
                       message={pranetaMsg}
                       pic={PranetaPic}
                       name='Praneta'
                       relation="Groom's Sister"
                       customClass='sibling-msg'
                       customPointerClass='groom-sibling-pointer'
+                      imgOrder='order-md-1'
+                      msgOrder='order-md-2'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={8000}>
-                    <GroomSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={vikramMsg}
                       pic={PranetaPic}
                       name='Vikram'
                       relation="Groom's Jiju"
                       customClass='sibling-msg'
                       customPointerClass='groom-sibling-pointer'
+                      imgOrder='order-md-1'
+                      msgOrder='order-md-2'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={6000}>
-                    <GroomSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={kanuMsg}
                       pic={KanuPic}
                       name='Kanishk'
                       relation="Groom's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='groom-sibling-pointer'
+                      imgOrder='order-md-1'
+                      msgOrder='order-md-2'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={6000}>
-                    <GroomSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={aditMsg}
                       pic={AditPic}
                       name='Adit'
                       relation="Groom's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='groom-sibling-pointer'
+                      imgOrder='order-md-1'
+                      msgOrder='order-md-2'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={7000}>
-                    <GroomSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={vasuMsg}
                       pic={VasuPic}
                       name='Vatsal'
                       relation="Groom's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='groom-sibling-pointer'
+                      imgOrder='order-md-1'
+                      msgOrder='order-md-2'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={6000}>
-                    <GroomSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={shrutiShreshthaMsg}
                       pic={ShrutiShreshthaPic}
                       name='Shruti & Shreshtha'
                       relation="Groom's Cousins"
                       customClass='sibling-msg'
                       customPointerClass='groom-sibling-pointer'
+                      imgOrder='order-md-1'
+                      msgOrder='order-md-2'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={4000}>
-                    <GroomSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={muditMsg}
                       pic={MuditPic}
                       name='Akarsh'
                       relation="Groom's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='groom-sibling-pointer'
+                      imgOrder='order-md-1'
+                      msgOrder='order-md-2'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={10000}>
-                    <GroomSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={vinniMsg}
                       pic={VinniPic}
                       name='Shubhang'
                       relation="Groom's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='groom-sibling-pointer'
+                      imgOrder='order-md-1'
+                      msgOrder='order-md-2'
                     />
                   </Carousel.Item>
                 </Carousel>
@@ -439,96 +377,114 @@ May everyday of your life hereafter hold wonderful shared experiences 😍🥰 <
                   fade
                   // vertical
                 >
-                  <Carousel.Item interval={8000}>
+                  <Carousel.Item>
                     {/* <Row>
                         <Col > */}
-                    <BrideSideSpeechBubble
+                    <SpeechBubble
                       message={pragyaBrotherMsg}
                       pic={pragyaBrotherPic}
                       name='Rishav'
                       relation="Bride's Brother"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={4000}>
-                    <BrideSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={aarohiMsg}
                       pic={AarohiPic}
                       name='Aarohi, Aradhya & Dhruv'
                       relation="Bride's Nieces & Nephew"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={8000}>
-                    <BrideSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={shreshthSweetyMsg}
                       pic={ShreshthSweetyPic}
                       name='Shreshth & Sweety'
                       relation="Bride's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={6000}>
-                    <BrideSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={shubhiHarshitMsg}
                       pic={ShubhiHarshitPic}
                       name='Shubhi & Harshit'
                       relation="Bride's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={7000}>
-                    <BrideSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={manishKirtiMsg}
                       pic={ManishKritiPic}
                       name='Manish, Kirti & Aarav'
                       relation="Bride's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={6000}>
-                    <BrideSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={shikhaMsg}
                       pic={ShikhaPic}
                       name='Shikha & Amit'
                       relation="Bride's Cousins"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={4000}>
-                    <BrideSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={abhinavMsg}
                       pic={AbhinavPic}
                       name='Abhinav & Divya'
                       relation="Bride's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={10000}>
-                    <BrideSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={priyankaMsg}
                       pic={PriyankaPic}
                       name='Priyanka & Ashish'
                       relation="Bride's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
                     />
                   </Carousel.Item>
-                  <Carousel.Item interval={10000}>
-                    <BrideSideSpeechBubble
+                  <Carousel.Item>
+                    <SpeechBubble
                       message={sonalMsg}
                       pic={SonalPic}
                       name='Sonal, Ankit & Anika'
                       relation="Bride's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
                     />
                   </Carousel.Item>
                 </Carousel>

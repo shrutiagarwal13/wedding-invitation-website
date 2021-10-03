@@ -1,12 +1,12 @@
 import React from 'react';
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import VenueCard from './VenueCard';
 import WeddingBG from '../images/wedding-bg.jpeg';
-import SangeetBG from '../images/sangeet-bg.jpeg';
-import ReceptionBG from '../images/reception-bg.jpeg';
+import SangeetBG from '../images/sangeet-bg.jpg';
+// import ReceptionBG from '../images/reception-bg.jpeg';
 import WeddingIcon from '../images/wedding-icon1.png';
 import SangeetIcon from '../images/sangeet-icon1.png';
-import ReceptionIcon from '../images/reception-icon.png';
+// import ReceptionIcon from '../images/reception-icon.png';
 
 const VenueSection = () => {
   let sangeetVenue = `

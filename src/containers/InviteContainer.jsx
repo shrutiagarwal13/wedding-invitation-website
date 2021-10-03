@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import InvitePic from '../images/invite-pic.jpeg';
+import InvitePic from '../images/invite-pic.jpg';
 import Lamp1 from '../images/lamp1.png';
 import Lamp2 from '../images/lamp2.png';
 

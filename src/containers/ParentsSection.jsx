@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import ParentsBlock from '../components/ParentsBlock';
 import ParentsPic from '../images/parents.jpeg';
 

@@ -1,7 +1,21 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
+// import ReactReadMoreReadLess from 'react-read-more-read-less';
+import SmartText from '../components/SmartText.jsx';
 
-const GroomSideSpeechBubble = (props) => {
+const SpeechBubble = (props) => {
+  // let formatMsg = (msg) => {
+  //   let customItems = msg.split('#');
+
+  //   for (let i = 0; i < customItems.length; i++) {
+  //     customItems[i] = customItems[i] + '\n';
+  //   }
+
+  //   customItems = customItems.join('');
+
+  //   return customItems;
+  // };
+
   return (
     <div>
       <div className={`speech-bubble ${props.customClass}`}>
@@ -28,10 +42,12 @@ const GroomSideSpeechBubble = (props) => {
               md={9}
               className={`order-sm-1 order-first order-sm-last ${props.msgOrder}`}
             >
-              <div
-                class='bubble'
-                dangerouslySetInnerHTML={{ __html: props.message }}
-              ></div>
+              <div class='bubble bubble-text'>
+                <SmartText
+                  text={props.message}
+                  customButtonClass='family-btn'
+                />
+              </div>
               <div class={`pointer ${props.customPointerClass}`}></div>
             </Col>
           </Row>
@@ -65,4 +81,4 @@ const GroomSideSpeechBubble = (props) => {
   );
 };
 
-export default GroomSideSpeechBubble;
+export default SpeechBubble;

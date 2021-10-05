@@ -1,14 +1,20 @@
 import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap';
+import SmartText from './SmartText';
 
 const FriendsCard = (props) => {
   return (
     <Card className='friends-card'>
       <Card.Body>
         <Card.Text>
-          <div dangerouslySetInnerHTML={{ __html: props.message }}>
-            {/* {props.message} */}
-          </div>
+          {/* <div dangerouslySetInnerHTML={{ __html: props.message }}> */}
+          <SmartText
+            text={props.message}
+            customButtonClass='friends-btn'
+            length={props.charLength}
+          />
+          {/* {props.message} */}
+          {/* </div> */}
         </Card.Text>
       </Card.Body>
       <Container>

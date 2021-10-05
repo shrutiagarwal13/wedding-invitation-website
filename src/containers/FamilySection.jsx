@@ -11,6 +11,8 @@ import ShubhiHarshitPic from '../images/family/shubhi_harshit.jpeg';
 import ShreshthSweetyPic from '../images/family/shreshth_sweety.jpg';
 import ManishKritiPic from '../images/family/manish_kriti.jpeg';
 import PranetaPic from '../images/family/praneta1.jpeg';
+import VikramPic from '../images/family/vikram1.jpeg';
+
 import AditPic from '../images/family/adit.jpeg';
 import MuditPic from '../images/family/mudit.jpeg';
 import KanuPic from '../images/family/kanu.jpeg';
@@ -25,6 +27,7 @@ import AarohiPic from '../images/family/aarohi.jpeg';
 import ShikhaPic from '../images/family/shikha.jpeg';
 import KashviPic from '../images/family/kashvi.jpg';
 import RahulPic from '../images/family/rahul.jpg';
+import AnshulPic from '../images/family/anshul.jpeg';
 
 const FamilySection = () => {
   let pragyaParentsMsg = `
@@ -47,7 +50,7 @@ const FamilySection = () => {
 "My sweet little princess has finally found her prince charming. Dear sis, as you begin your life together with your husband I want you to know that I am here for you if you ever need anything. You are important to me and I love you. You've enchanted us all with your smile my darling sis. I wish you both all the best for your future. Congratulations </p>
 <p>With love, <br>
 Bhaiya"</p>
-</p>
+</>
 
 </div>
 `;
@@ -156,7 +159,7 @@ You correct me when I am wrong but the way you do, makes me inspired.😇 </p>
 You have been role model and torch bearer for all of your brothers.. </p>
 <p>Dear bhabhi, <br /> Welcome to the family... this is the much awaited day in all our lives. Wish you both love, good health ahead in life. We will have lots of fun together!!🎉 " </p>
 
-</p>
+</>
 
 </div>
 
@@ -169,7 +172,7 @@ You have been role model and torch bearer for all of your brothers.. </p>
 <p>Congratulations bhaiya and bhabhi on your marriage 💥  </p>
 <p>Kaku bhaiya you are the coolest brother one could've ever asked for, starting right from the part where you party with us like friends to the part where you give us serious advice be it for career or anything like a mentor👨‍💼 </p>
 <p>You're an ideal big brother who's soon getting an ideal bhabhi for all of us to pamper❤️ </p>
-</p>I'm really excited for you to start this new journey with her, i hope and wish your love continues to grow stronger with every passing day🌈 </p>
+</>I'm really excited for you to start this new journey with her, i hope and wish your love continues to grow stronger with every passing day🌈 </p>
 <p>We await all the fun, dance, laughter and smiles on your wedding day, let's make memories for a lifetime🕺 "</p>
 
 
@@ -178,10 +181,10 @@ You have been role model and torch bearer for all of your brothers.. </p>
 
   let sonalMsg = `
 <div className='family-msg'>
-<p>Dear love birds,</p>
+<p>"Dear love birds,</p>
 
-<p>"As you blend your lives together with each other, I want to wish you a married life full of romance,cuddles and lifetime of happiness..
-May everyday of your life hereafter hold wonderful shared experiences 😍🥰 </p>
+<p>As you blend your lives together with each other, I want to wish you a married life full of romance,cuddles and lifetime of happiness..
+May everyday of your life hereafter hold wonderful shared experiences😍🥰 </p>
 <p>Wish you both togetherness always! </p>
 <p>With love 💕 "  </p>
 
@@ -213,8 +216,7 @@ May everyday of your life hereafter hold wonderful shared experiences 😍🥰 <
 "You have pampered, we all three, since we are born. We'll never forget our funfilled late night talks with you bua. </p>
 <p>You look awesome too to us! </p>
 <p>About fufaji, eagerly waiting to play and enjoy with you. </p>
-<p> We love you bua and fufaji!!😘 </p>
-<p>Best wishes!" </p>
+<Best> We love you bua and fufaji!!😘 <br /> Best wishes!" </p>
 
 </div>
 
@@ -231,7 +233,7 @@ May everyday of your life hereafter hold wonderful shared experiences 😍🥰 <
 <div className='family-msg'>
 
 <p>"Two beautiful hearts joining together with a promise of never letting go of each other. Our warm wishes of lifetime happiness, joy, and prosperity for Pragya and Chaitanya Ji... </p>
-</p>Congratulations! May God always guide you both to lead a married life full of love, compassion, and purity. May you both find true happiness in the prayers! </p>
+<p>Congratulations! May God always guide you both to lead a married life full of love, compassion, and purity. May you both find true happiness in the prayers! </p>
 </div>
 `;
 
@@ -241,6 +243,16 @@ May everyday of your life hereafter hold wonderful shared experiences 😍🥰 <
 Wishing you and Mausaji a happy  Marital bliss... God bless you both and Good Luck as you both are entering in your new phase of life...
 </p>
 
+</div>
+`;
+
+  let anshulMsg = `
+<div className='family-msg'>
+<p>
+Many congratulations Pragya!! </p>
+<p>Wish you both happiness, love and joy as you embark on this new chapter of life!</p>
+<p>Lots of Love!!
+</p>
 </div>
 `;
 
@@ -302,7 +314,7 @@ Wishing you and Mausaji a happy  Marital bliss... God bless you both and Good Lu
                   <Carousel.Item>
                     <SpeechBubble
                       message={vikramMsg}
-                      pic={PranetaPic}
+                      pic={VikramPic}
                       name='Vikram'
                       relation="Groom's Jiju"
                       customClass='sibling-msg'
@@ -523,6 +535,18 @@ Wishing you and Mausaji a happy  Marital bliss... God bless you both and Good Lu
                       message={rahulMsg}
                       pic={RahulPic}
                       name='Neha & Rahul'
+                      relation="Bride's Cousin"
+                      customClass='sibling-msg'
+                      customPointerClass='bride-sibling-pointer'
+                      imgOrder='order-md-2'
+                      msgOrder='order-md-1'
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <SpeechBubble
+                      message={anshulMsg}
+                      pic={AnshulPic}
+                      name='Anshul & Anshika'
                       relation="Bride's Cousin"
                       customClass='sibling-msg'
                       customPointerClass='bride-sibling-pointer'

@@ -398,7 +398,7 @@ html {
 }
 
 .family-section .carousel-indicators {
-  height: 1px;
+  height: 2px;
   /* padding-top: 1px; */
   position: absolute;
   bottom: 0 !important;
@@ -406,24 +406,25 @@ html {
 
 .family-section .carousel-indicators button {
   /* margin-top: 1%; */
-  border: 1px transparent solid;
-  width: 30px;
+  border: 0px transparent solid;
+  height: 3px;
+  width: 27px;
 
   /* border-radius: 100%; */
-  margin-right: 1.5%;
-  background-color: rgba(109, 84, 14, 0.6);
+  margin-right: 1.2%;
+  background-color: rgba(109, 84, 14, 0.7);
 }
 
 .family-section .carousel-indicators .active {
-  background-color: #6d540e;
+  background-color: #493705;
 }
 
 .bubble {
-  /* height: 250px; */
+  height: auto;
   width: 100%;
-  padding: 5%;
-  padding-bottom: 2%;
-  min-height: 200px;
+  padding: 4% 5% 2%;
+  /* padding-bottom: 2%; */
+  min-height: 250px;
   /* min-width: 200px; */
   background: ivory;
   display: block;
@@ -520,7 +521,31 @@ html {
   min-height: 292px !important;
 }
 
+.bubble-text {
+  white-space: 'pre-wrap';
+}
+
+.read-more-btn {
+  padding: 1%;
+  color: black;
+  text-decoration: underline;
+  font-weight: 500;
+  border: none !important;
+  border-radius: 10px;
+  background: none;
+
+  /* background-color: #907018; */
+}
+
+.family-section button {
+  /* background-color: #907018; */
+}
+
 /* -------------------------- FRIENDS SECTION ------------------------- */
+
+.friends-section button {
+  /* background-color: #912031; */
+}
 
 .friends-section {
   background: rgb(181, 90, 55);
@@ -580,6 +605,9 @@ html {
   align-content: justify !important;
   border-radius: 20px !important;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  min-height: 450px;
+  /* max-height: 400px; */
+  height: auto;
   /* min-height: 100%; */
   /* min-height: ; */
 }

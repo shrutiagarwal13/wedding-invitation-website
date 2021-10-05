@@ -12,6 +12,7 @@ import SuyashPic from '../images/friends/suyash.jpeg';
 import PratikPic from '../images/friends/pratik.jpeg';
 import ChiragPic from '../images/friends/chirag.jpg';
 import JenishPic from '../images/friends/jenish.jpeg';
+import PriyaPic from '../images/friends/priya.jpeg';
 import DishiPic from '../images/friends/dishi.jpeg';
 import AaziaPic from '../images/friends/aazia.jpg';
 import ArunimaPic from '../images/friends/arunima.jpg';
@@ -223,6 +224,7 @@ Sure. </p>
                       name='Vikas'
                       intro="Chaitanya's Friend"
                       message={msgVikas}
+                      charLength={340}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -231,6 +233,7 @@ Sure. </p>
                       name='Neha, Akash and Vineet'
                       intro="Chaitanya's Friend"
                       message={msgNAV}
+                      charLength={300}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -239,6 +242,7 @@ Sure. </p>
                       name='Maulik'
                       intro="Chaitanya's Friend"
                       message={msgMaulik}
+                      charLength={350}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -247,6 +251,7 @@ Sure. </p>
                       name='Rakshit'
                       intro="Chaitanya's Friend"
                       message={msgRakshit}
+                      charLength={600}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -255,6 +260,7 @@ Sure. </p>
                       name='Arjun'
                       intro="Chaitanya's Friend"
                       message={msgArjun}
+                      charLength={600}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -263,6 +269,7 @@ Sure. </p>
                       name='Suyash'
                       intro="Chaitanya's Friend"
                       message={msgSuyash}
+                      charLength={300}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -271,6 +278,7 @@ Sure. </p>
                       name='Pratik'
                       // intro="Chaitanya's Friend"
                       message={msgPratik}
+                      charLength={300}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -279,14 +287,16 @@ Sure. </p>
                       name='Chirag Jain'
                       // intro="Chaitanya's Friend"
                       message={msgChirag}
+                      charLength={700}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <FriendsCard
-                      pic={ChiragPic}
+                      pic={PriyaPic}
                       name='Priya'
                       // intro="Chaitanya's Friend"
                       message={msgPriya}
+                      charLength={420}
                     />
                   </Carousel.Item>
                   <Carousel.Item>

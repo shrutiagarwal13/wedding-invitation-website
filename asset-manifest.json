@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/wedding-invitation-website/static/css/main.5f6258a5.chunk.css",
-    "main.js": "/wedding-invitation-website/static/js/main.296a9526.chunk.js",
-    "main.js.map": "/wedding-invitation-website/static/js/main.296a9526.chunk.js.map",
+    "main.css": "/wedding-invitation-website/static/css/main.15a76e7e.chunk.css",
+    "main.js": "/wedding-invitation-website/static/js/main.7ce728f8.chunk.js",
+    "main.js.map": "/wedding-invitation-website/static/js/main.7ce728f8.chunk.js.map",
     "runtime-main.js": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js",
     "runtime-main.js.map": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js.map",
     "static/js/2.f5969aac.chunk.js": "/wedding-invitation-website/static/js/2.f5969aac.chunk.js",
     "static/js/2.f5969aac.chunk.js.map": "/wedding-invitation-website/static/js/2.f5969aac.chunk.js.map",
     "index.html": "/wedding-invitation-website/index.html",
-    "static/css/main.5f6258a5.chunk.css.map": "/wedding-invitation-website/static/css/main.5f6258a5.chunk.css.map",
+    "static/css/main.15a76e7e.chunk.css.map": "/wedding-invitation-website/static/css/main.15a76e7e.chunk.css.map",
     "static/js/2.f5969aac.chunk.js.LICENSE.txt": "/wedding-invitation-website/static/js/2.f5969aac.chunk.js.LICENSE.txt",
     "static/media/index.css": "/wedding-invitation-website/static/media/wood-bg1.0b590690.jpeg",
     "static/media/aarohi.f7638303.jpeg": "/wedding-invitation-website/static/media/aarohi.f7638303.jpeg",
     "static/media/aazia.14cc8bc9.jpg": "/wedding-invitation-website/static/media/aazia.14cc8bc9.jpg",
     "static/media/abhinav.f599c6c8.jpeg": "/wedding-invitation-website/static/media/abhinav.f599c6c8.jpeg",
     "static/media/adit.8e6ef4dc.jpeg": "/wedding-invitation-website/static/media/adit.8e6ef4dc.jpeg",
+    "static/media/anshul.02d2ba8d.jpeg": "/wedding-invitation-website/static/media/anshul.02d2ba8d.jpeg",
     "static/media/arjun.37b2c3be.jpg": "/wedding-invitation-website/static/media/arjun.37b2c3be.jpg",
     "static/media/arunima.3208a8fb.jpg": "/wedding-invitation-website/static/media/arunima.3208a8fb.jpg",
     "static/media/chaitanya-pic.227a4fd5.jpeg": "/wedding-invitation-website/static/media/chaitanya-pic.227a4fd5.jpeg",
@@ -39,6 +40,7 @@
     "static/media/pragya_parents.cd952589.jpg": "/wedding-invitation-website/static/media/pragya_parents.cd952589.jpg",
     "static/media/praneta1.33d7cbff.jpeg": "/wedding-invitation-website/static/media/praneta1.33d7cbff.jpeg",
     "static/media/pratik.c562e493.jpeg": "/wedding-invitation-website/static/media/pratik.c562e493.jpeg",
+    "static/media/priya.6000423d.jpeg": "/wedding-invitation-website/static/media/priya.6000423d.jpeg",
     "static/media/priyanka.39810bcb.jpg": "/wedding-invitation-website/static/media/priyanka.39810bcb.jpg",
     "static/media/rahul.20181cc8.jpg": "/wedding-invitation-website/static/media/rahul.20181cc8.jpg",
     "static/media/rakshit.e882f43d.jpeg": "/wedding-invitation-website/static/media/rakshit.e882f43d.jpeg",
@@ -53,6 +55,7 @@
     "static/media/suyash.eb161657.jpeg": "/wedding-invitation-website/static/media/suyash.eb161657.jpeg",
     "static/media/vasu.2296aeb9.jpg": "/wedding-invitation-website/static/media/vasu.2296aeb9.jpg",
     "static/media/vikas.8de956da.jpg": "/wedding-invitation-website/static/media/vikas.8de956da.jpg",
+    "static/media/vikram1.5113fe64.jpeg": "/wedding-invitation-website/static/media/vikram1.5113fe64.jpeg",
     "static/media/vinni.1a59aab5.jpg": "/wedding-invitation-website/static/media/vinni.1a59aab5.jpg",
     "static/media/wedding-bg.dbf5a121.jpg": "/wedding-invitation-website/static/media/wedding-bg.dbf5a121.jpg",
     "static/media/wedding-icon1.a30d9b08.png": "/wedding-invitation-website/static/media/wedding-icon1.a30d9b08.png"
@@ -60,7 +63,7 @@
   "entrypoints": [
     "static/js/runtime-main.8491a7bb.js",
     "static/js/2.f5969aac.chunk.js",
-    "static/css/main.5f6258a5.chunk.css",
-    "static/js/main.296a9526.chunk.js"
+    "static/css/main.15a76e7e.chunk.css",
+    "static/js/main.7ce728f8.chunk.js"
   ]
 }

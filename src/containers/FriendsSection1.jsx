@@ -223,7 +223,7 @@ Lekin Aatank bahut hai...😂😂😂 </p>
                   controls={false}
                   nextLabel=''
                   prevLabel=''
-                  interval={15000}
+                  interval={20000}
                   fade
                   // vertical
                 >

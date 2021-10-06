@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/wedding-invitation-website/static/css/main.15a76e7e.chunk.css",
-    "main.js": "/wedding-invitation-website/static/js/main.7ce728f8.chunk.js",
-    "main.js.map": "/wedding-invitation-website/static/js/main.7ce728f8.chunk.js.map",
+    "main.css": "/wedding-invitation-website/static/css/main.53ee1765.chunk.css",
+    "main.js": "/wedding-invitation-website/static/js/main.0c26623a.chunk.js",
+    "main.js.map": "/wedding-invitation-website/static/js/main.0c26623a.chunk.js.map",
     "runtime-main.js": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js",
     "runtime-main.js.map": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js.map",
     "static/js/2.f5969aac.chunk.js": "/wedding-invitation-website/static/js/2.f5969aac.chunk.js",
     "static/js/2.f5969aac.chunk.js.map": "/wedding-invitation-website/static/js/2.f5969aac.chunk.js.map",
     "index.html": "/wedding-invitation-website/index.html",
-    "static/css/main.15a76e7e.chunk.css.map": "/wedding-invitation-website/static/css/main.15a76e7e.chunk.css.map",
+    "static/css/main.53ee1765.chunk.css.map": "/wedding-invitation-website/static/css/main.53ee1765.chunk.css.map",
     "static/js/2.f5969aac.chunk.js.LICENSE.txt": "/wedding-invitation-website/static/js/2.f5969aac.chunk.js.LICENSE.txt",
     "static/media/index.css": "/wedding-invitation-website/static/media/wood-bg1.0b590690.jpeg",
     "static/media/aarohi.f7638303.jpeg": "/wedding-invitation-website/static/media/aarohi.f7638303.jpeg",
@@ -49,6 +49,7 @@
     "static/media/shikha.568574eb.jpeg": "/wedding-invitation-website/static/media/shikha.568574eb.jpeg",
     "static/media/shreshth_sweety.b2a1f624.jpg": "/wedding-invitation-website/static/media/shreshth_sweety.b2a1f624.jpg",
     "static/media/shruti_shreshtha.ba3d6f08.jpeg": "/wedding-invitation-website/static/media/shruti_shreshtha.ba3d6f08.jpeg",
+    "static/media/shubhi.03b32194.jpeg": "/wedding-invitation-website/static/media/shubhi.03b32194.jpeg",
     "static/media/shubhi_harshit.c1713355.jpeg": "/wedding-invitation-website/static/media/shubhi_harshit.c1713355.jpeg",
     "static/media/sonal.7292f1ca.jpg": "/wedding-invitation-website/static/media/sonal.7292f1ca.jpg",
     "static/media/srishti.63a9b017.jpeg": "/wedding-invitation-website/static/media/srishti.63a9b017.jpeg",
@@ -63,7 +64,7 @@
   "entrypoints": [
     "static/js/runtime-main.8491a7bb.js",
     "static/js/2.f5969aac.chunk.js",
-    "static/css/main.15a76e7e.chunk.css",
-    "static/js/main.7ce728f8.chunk.js"
+    "static/css/main.53ee1765.chunk.css",
+    "static/js/main.0c26623a.chunk.js"
   ]
 }

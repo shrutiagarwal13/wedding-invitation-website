@@ -294,8 +294,8 @@ Many congratulations Pragya!! </p>
                   controls={false}
                   nextLabel=''
                   prevLabel=''
+                  interval={20000}
                   fade
-                  // vertical
                 >
                   <Carousel.Item>
                     {/* <Row>
@@ -309,6 +309,7 @@ Many congratulations Pragya!! </p>
                       customPointerClass='groom-sibling-pointer'
                       imgOrder='order-md-1'
                       msgOrder='order-md-2'
+                      charLength={420}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -369,6 +370,7 @@ Many congratulations Pragya!! </p>
                       customPointerClass='groom-sibling-pointer'
                       imgOrder='order-md-1'
                       msgOrder='order-md-2'
+                      charLength={500}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -381,6 +383,7 @@ Many congratulations Pragya!! </p>
                       customPointerClass='groom-sibling-pointer'
                       imgOrder='order-md-1'
                       msgOrder='order-md-2'
+                      charLength={450}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -393,6 +396,7 @@ Many congratulations Pragya!! </p>
                       customPointerClass='groom-sibling-pointer'
                       imgOrder='order-md-1'
                       msgOrder='order-md-2'
+                      charLength={400}
                     />
                   </Carousel.Item>
                 </Carousel>
@@ -405,6 +409,7 @@ Many congratulations Pragya!! </p>
                   controls={false}
                   nextLabel=''
                   prevLabel=''
+                  interval={10000}
                   fade
                   // vertical
                 >

@@ -45,7 +45,9 @@ const SpeechBubble = (props) => {
               <div class='bubble bubble-text'>
                 <SmartText
                   text={props.message}
-                  customButtonClass='family-btn'
+                  length={props.charLength}
+
+                  // customButtonClass='family-btn'
                 />
               </div>
               <div class={`pointer ${props.customPointerClass}`}></div>

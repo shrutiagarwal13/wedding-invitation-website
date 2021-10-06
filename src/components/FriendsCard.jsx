@@ -10,7 +10,7 @@ const FriendsCard = (props) => {
           {/* <div dangerouslySetInnerHTML={{ __html: props.message }}> */}
           <SmartText
             text={props.message}
-            customButtonClass='friends-btn'
+            // customButtonClass='friends-btn'
             length={props.charLength}
           />
           {/* {props.message} */}

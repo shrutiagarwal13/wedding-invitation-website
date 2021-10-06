@@ -17,6 +17,7 @@ import DishiPic from '../images/friends/dishi.jpeg';
 import AaziaPic from '../images/friends/aazia.jpg';
 import ArunimaPic from '../images/friends/arunima.jpg';
 import SrishtiPic from '../images/friends/srishti.jpeg';
+import ShubhiPic from '../images/friends/shubhi.jpeg';
 
 const FriendsSection1 = () => {
   let msgVikas = `<div class='friends-msg'>
@@ -186,6 +187,15 @@ Sure. </p>
 </p> I Love You My Beautiful <3" </p>
 </div>`;
 
+  let msgShubhi = `
+<div class='friends-msg'>
+<p>"Shadishuda zindagi, kashmir jesi hai.... <br />
+ Khoobsurat to hai, <br />
+Lekin Aatank bahut hai...😂😂😂 </p>
+<p>So all the best for thrilling and adventurous life ahead...."</p>
+</div>
+`;
+
   return (
     <div>
       <section className='friends-section'>
@@ -208,34 +218,15 @@ Sure. </p>
           <Container className='friends-slider-container'>
             <Row>
               <Col md={8}>
-                <div className='sub-heading'>Chaitanya's Groomsmen</div>
+                <div className='sub-heading'>Team Groom</div>
                 <Carousel
                   controls={false}
                   nextLabel=''
                   prevLabel=''
+                  interval={15000}
                   fade
                   // vertical
                 >
-                  <Carousel.Item>
-                    {/* <Row>
-                        <Col > */}
-                    <FriendsCard
-                      pic={VikasPic}
-                      name='Vikas'
-                      intro="Chaitanya's Friend"
-                      message={msgVikas}
-                      charLength={340}
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <FriendsCard
-                      pic={NAVPic}
-                      name='Neha, Akash and Vineet'
-                      intro="Chaitanya's Friend"
-                      message={msgNAV}
-                      charLength={300}
-                    />
-                  </Carousel.Item>
                   <Carousel.Item>
                     <FriendsCard
                       pic={MaulikPic}
@@ -256,24 +247,6 @@ Sure. </p>
                   </Carousel.Item>
                   <Carousel.Item>
                     <FriendsCard
-                      pic={ArjunPic}
-                      name='Arjun'
-                      intro="Chaitanya's Friend"
-                      message={msgArjun}
-                      charLength={600}
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <FriendsCard
-                      pic={SuyashPic}
-                      name='Suyash'
-                      intro="Chaitanya's Friend"
-                      message={msgSuyash}
-                      charLength={300}
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <FriendsCard
                       pic={PratikPic}
                       name='Pratik'
                       // intro="Chaitanya's Friend"
@@ -283,11 +256,10 @@ Sure. </p>
                   </Carousel.Item>
                   <Carousel.Item>
                     <FriendsCard
-                      pic={ChiragPic}
-                      name='Chirag Jain'
+                      pic={JenishPic}
+                      name='Jenish'
                       // intro="Chaitanya's Friend"
-                      message={msgChirag}
-                      charLength={700}
+                      message={msgJenish}
                     />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -301,10 +273,50 @@ Sure. </p>
                   </Carousel.Item>
                   <Carousel.Item>
                     <FriendsCard
-                      pic={JenishPic}
-                      name='Jenish'
+                      pic={ChiragPic}
+                      name='Chirag Jain'
                       // intro="Chaitanya's Friend"
-                      message={msgJenish}
+                      message={msgChirag}
+                      charLength={700}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <FriendsCard
+                      pic={ArjunPic}
+                      name='Arjun'
+                      intro="Chaitanya's Friend"
+                      message={msgArjun}
+                      charLength={600}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <FriendsCard
+                      pic={NAVPic}
+                      name='Neha, Akash and Vineet'
+                      intro="Chaitanya's Friend"
+                      message={msgNAV}
+                      charLength={300}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    {/* <Row>
+                        <Col > */}
+                    <FriendsCard
+                      pic={VikasPic}
+                      name='Vikas'
+                      intro="Chaitanya's Friend"
+                      message={msgVikas}
+                      charLength={340}
+                    />
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <FriendsCard
+                      pic={SuyashPic}
+                      name='Suyash'
+                      intro="Chaitanya's Friend"
+                      message={msgSuyash}
+                      charLength={300}
                     />
                   </Carousel.Item>
                 </Carousel>
@@ -313,11 +325,15 @@ Sure. </p>
             <Row className='mt-4'>
               <Col md={4}> </Col>
               <Col md={8}>
-                <div className='sub-heading bridesmaid-heading'>
-                  Pragya's Bridesmaids
-                </div>
+                <div className='sub-heading bridesmaid-heading'>Team Bride</div>
 
-                <Carousel controls={false} nextLabel='' prevLabel='' fade>
+                <Carousel
+                  controls={false}
+                  nextLabel=''
+                  prevLabel=''
+                  interval={10000}
+                  fade
+                >
                   <Carousel.Item>
                     <FriendsCard
                       pic={DishiPic}
@@ -348,6 +364,14 @@ Sure. </p>
                       name='Aazia & Shafeek'
                       //   intro="Chaitanya's Friend"
                       message={msgAazia}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <FriendsCard
+                      pic={ShubhiPic}
+                      name='Shubhi Agrawal'
+                      //   intro="Chaitanya's Friend"
+                      message={msgShubhi}
                     />
                   </Carousel.Item>
                 </Carousel>

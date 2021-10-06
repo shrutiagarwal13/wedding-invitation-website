@@ -263,15 +263,15 @@ html {
   text-align: center;
 }
 
-.card-profile {
+/* .card-profile {
   margin-top: 30px;
   text-align: center;
-}
+} */
 
 .card-profile {
   display: inline-block;
   position: relative;
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-bottom: 30px;
   border-radius: 6px;
@@ -282,6 +282,7 @@ html {
     0 1px 5px 0 rgb(0 0 0 / 12%);
   margin-top: 30px;
   text-align: center;
+  /* min-height: 100%; */
 }
 
 .card-profile .card-avatar {
@@ -334,8 +335,9 @@ html {
 }
 
 .card-description {
-  font-family: 'Montserrat';
-  font-size: 1.1rem;
+  font-family: cursive;
+  font-size: 1.17rem;
+  font-weight: bolder;
 }
 
 /* ------------------- PARENTS SECTION -------------------------- */

@@ -13,6 +13,11 @@
   src: url(./fonts/cassandra-personal-use.regular.ttf);
 }
 
+@font-face {
+  font-family: Chalk;
+  src: url(./fonts/KGBrokenVesselsSketch.ttf);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
@@ -131,18 +136,19 @@ html {
 /* -------------- COUNTDOWN -------------------------- */
 
 .countdown-container {
-  background-color: #907018;
+  background-color: #4d0f14;
+  color: #f5c145;
   z-index: 10;
   width: 60%;
   text-align: center;
   margin: auto;
   font-family: 'Red Rose';
   font-weight: 700;
-  padding-bottom: 0.5%;
+  padding: 8px;
   position: absolute;
   bottom: -5vh;
   left: 20%;
-
+  border-radius: 3px;
   clear: both;
 }
 
@@ -165,6 +171,7 @@ html {
   background-color: #86211e;
   /* background-color: #730400; */
   background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png');
+  /* height: 100vh; */
 }
 
 .invitation-container {
@@ -250,6 +257,9 @@ html {
   background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/Screenshot 2021-10-07 at 21.37.38.png');
   background-size: cover;
   background-repeat: no-repeat;
+  /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/2ec7b332fd6ad908ff4933fa4a8ac04c.jpeg');
+  background-size: contain; */
+  /* background-repeat: repeat-y; */
 
   background-position: top center;
   padding-bottom: 7%;
@@ -299,7 +309,7 @@ html {
   /* border-color: #86361a !important; */
   border-width: 4px !important;
   /* border: 4px solid #86361a; */
-  border: 4px solid #f9dbe8 !important;
+  border: 4px solid #f9dbe8;
   /* box-shadow: 0 16px 38px -12px rgb(0 0 0 / 56%),
     0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%); */
   transition-duration: 0.15s;
@@ -331,7 +341,7 @@ html {
   font-size: 2rem;
   font-family: 'Cassandra', cursive;
   /* color: #3d060d; */
-  color: #f9dbe8;
+  color: white;
 }
 .card-caption,
 .card-caption a {
@@ -340,9 +350,9 @@ html {
 }
 
 .card-description {
-  font-family: cursive;
-  font-size: 1.35rem;
-  font-weight: bold;
+  font-family: 'Montserrat';
+  font-size: 1.1rem;
+  font-weight: 500;
   color: white;
 }
 
@@ -577,9 +587,10 @@ html {
     rgba(209, 148, 19, 1) 100%
   );
   /* background-image: url('../src/images/friends-msgs-bg.jpg'); */
-  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/pngtree-pink-delicate-floral-envelope-background-image_589183.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/pngtree-pink-delicate-floral-envelope-background-image_589183.jpeg'); */
+  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/15130b7c6419da0f4f2bc281a8dc4b9e.jpeg');
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
   background-attachment: fixed;
   padding-bottom: 7%;
   /* position: relative; */
@@ -590,7 +601,7 @@ html {
 }
 
 .friends-heading {
-  color: #7e1427;
+  color: #fff;
 }
 
 .friends-slider-container {
@@ -623,9 +634,11 @@ html {
   margin-bottom: 10px;
   padding: 2%;
   padding-bottom: 4%;
-  background-color: #923f4e !important;
+  background-color: #f7e4e6;
+  background-image: url('https://www.transparenttextures.com/patterns/corrugation.png');
+  /* background-color: #fff !important; */
   /* background-image: url('https://www.transparenttextures.com/patterns/gplay.png'); */
-  background-image: url('https://www.transparenttextures.com/patterns/classy-fabric.png');
+  /* background-image: url('https://www.transparenttextures.com/patterns/classy-fabric.png'); */
   align-content: justify !important;
   border-radius: 20px !important;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -663,7 +676,7 @@ html {
   font-weight: 600;
   font-size: 1.5rem;
   font-family: Cassandra, cursive;
-  color: #fae3e9;
+  color: #86211e;
   letter-spacing: 1px;
 }
 
@@ -673,7 +686,7 @@ html {
   margin-top: 2%;
   margin-bottom: 2%;
   font-family: Cassandra, cursive;
-  color: #7e1427;
+  color: #fff;
   letter-spacing: 1px;
 }
 
@@ -683,7 +696,7 @@ html {
   /* font-size: 1.2rem; */
   /* font-weight: bold; */
   font-weight: 500;
-  color: white;
+  color: black;
 }
 
 .bridesmaid-heading {
@@ -693,7 +706,7 @@ html {
 }
 
 .friends-section .read-more-btn {
-  color: white;
+  color: black;
 }
 
 /* -------------------------- VENUE SECTION ------------------------- */
@@ -712,8 +725,9 @@ html {
 
   padding-bottom: 5%;
   /* background-image: url('../src/images/balloon-bg.jpg'); */
-  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/image copy.png');
-  background-size: cover;
+  /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/image copy.png'); */
+  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/Screenshot 2021-10-08 at 03.05.23.png');
+  /* background-size: cover; */
 }
 
 .venue-heading {
@@ -805,20 +819,23 @@ html {
 .rsvp-section {
   padding-top: 2%;
   padding-bottom: 7%;
-  background-image: url('./images/rsvp-bg.jpg');
+  /* background-image: url('./images/rsvp-bg.jpg'); */
+  /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/27424893-vector-seamless-pattern-for-wedding-invitation-or-vintage-background.jpeg'); */
+  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/Tapete_Vintage_3944G.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .rsvp-heading {
-  color: #fff;
+  color: #7e1427;
   font-family: 'Red Rose', sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   transition-duration: 0.1s;
   font-size: 7rem;
-  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 10px #fff, 0 0 10px #f8f1f1,
-    0 0 0px #f8f1f1, 0 0 0px #f8f1f1, 0 0 0px #f8f1f1, 0 0 50px #f8f1f1;
+  text-shadow: 0 0 1px #7e1427, 0 0 1px #7e1427, 0 0 5px #7e1427,
+    0 0 10px #f8f1f1, 0 0 0px #f8f1f1, 0 0 0px #f8f1f1, 0 0 0px #f8f1f1,
+    0 0 50px #f8f1f1;
 }
 
 .form-container {
@@ -866,16 +883,17 @@ html {
 
 .hashtag-section {
   /* background-image: url('../src/images/wood-bg1.jpeg'); */
-  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/pink-pastel-wood-background-pink-pastel-color-wood-texture-background-110284841.jpeg');
+  /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/pink-pastel-wood-background-pink-pastel-color-wood-texture-background-110284841.jpeg'); */
+  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/elegant-wood-planks-background-nicely-illuminated-spotlights-to-draw-attention-63018708.jpeg');
   background-size: cover;
   background-position: top center;
   padding: 2%;
   font-size: 5.5vmax;
-  font-weight: 600;
-  color: #380913;
+  /* font-weight: 600; */
+  color: #f1e5e8;
   text-align: center;
-  font-family: 'Red Rose', 'Montserrat', sans-serif;
-  border: 10px solid #380913;
+  font-family: Chalk, 'Red Rose', 'Montserrat', sans-serif;
+  border: 10px solid #f1e5e8;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
@@ -906,24 +924,30 @@ html {
     left: 5%;
   }
 
+  .invitation-section {
+    min-height: 100vh !important;
+  }
+
   .invitation-pic {
     min-width: 100% !important;
     max-height: 50% !important;
   }
 
   .assisting-text {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    padding-top: 5%;
   }
 
   .invitation-names {
-    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+
+  .invitation-names span {
+    display: block;
   }
 
   .invitation-date {
-    font-size: 2.8rem;
-  }
-  .assisting-text {
-    padding-top: 5%;
+    font-size: 1.8rem;
   }
 
   .invitation-venue {
@@ -997,22 +1021,54 @@ html {
 }
 
 @media (max-width: 767px) {
+  .section-heading {
+    padding-top: 7%;
+  }
+
+  .invitation-section {
+    background-color: white !important;
+  }
   .content-container {
     /* background-image: url('../src/images/invite-bg4.jpg'); */
-    background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/istockphoto-1076470772-170667a.jpeg');
-    background-position: left;
+    /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/istockphoto-1076470772-170667a.jpeg'); */
+    /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/49bed6191466e33c3652b73dc1fe5133.jpeg'); */
+    /* background-image: url('https://previews.123rf.com/images/lianella/lianella1404/lianella140400033/27424893-vector-seamless-pattern-for-wedding-invitation-or-vintage-background.jpg'); */
+    /* background-image: url('https://previews.123rf.com/images/elvil/elvil1403/elvil140300024/26374157-bright-wedding-vintage-wallpaper-background.jpg'); */
+    background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/sheer-window-curtains-white-gold-vintage-wallpaper.jpg.jpg');
+    background-color: white !important;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    /* opacity: 0.8; */
   }
 
   .assisting-text {
-    color: #7e1427;
+    color: #570e1c;
     font-weight: bold;
   }
 
   .invitation-names {
     color: #570e1c;
     font-weight: bold;
+  }
+
+  .introduction-section {
+    background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/2ec7b332fd6ad908ff4933fa4a8ac04c.jpeg');
+    background-size: contain;
+    background-repeat: repeat-y;
+  }
+
+  .card-profile,
+  .card-profile .card-avatar {
+    border-color: white !important;
+  }
+
+  .card-profile .card-caption {
+    font-size: 1.5rem;
+  }
+
+  .card-profile .card-description {
+    font-size: 1rem;
   }
 
   .family-section {
@@ -1062,13 +1118,22 @@ html {
   .family-section .carousel-indicators {
     bottom: -20px !important;
   }
+
+  .friends-section {
+    background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/15130b7c6419da0f4f2bc281a8dc4b9e.jpeg');
+  }
+
+  /* .friends-section .sub-heading {
+
+  } */
 }
 
 @media screen and (max-width: 768px) {
   .sub-heading {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 10%;
   }
 
   .invitation-container .col-sm-12,
@@ -1084,7 +1149,7 @@ html {
   }
 
   .bridesmaid-heading {
-    margin-top: 30px;
+    margin-top: 20% !important;
   }
 
   .friends-slider-container {

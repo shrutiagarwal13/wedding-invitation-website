@@ -911,6 +911,14 @@ html {
     max-height: 50% !important;
   }
 
+  .assisting-text {
+    font-size: 1.25rem;
+  }
+
+  .invitation-names {
+    font-size: 4rem;
+  }
+
   .invitation-date {
     font-size: 2.8rem;
   }
@@ -990,10 +998,21 @@ html {
 
 @media (max-width: 767px) {
   .content-container {
-    background-image: url('../src/images/invite-bg4.jpg');
-    background-position: center;
+    /* background-image: url('../src/images/invite-bg4.jpg'); */
+    background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/istockphoto-1076470772-170667a.jpeg');
+    background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .assisting-text {
+    color: #7e1427;
+    font-weight: bold;
+  }
+
+  .invitation-names {
+    color: #570e1c;
+    font-weight: bold;
   }
 
   .family-section {

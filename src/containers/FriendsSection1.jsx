@@ -126,7 +126,7 @@ Shirpur days, thumps up and lays, the exam hall… i mean i cant even write ever
 `;
 
   let msgJenish = `
-<div>
+<div class='friends-msg'>
 <p>
 Congratulations Bhai!! You have finally found that one person you get to annoy all through your life.  </p>
 <p>Here's to a lifetime full of happiness and love. Cheers 🥂 <br />
@@ -322,7 +322,7 @@ Lekin Aatank bahut hai...😂😂😂 </p>
                 </Carousel>
               </Col>
             </Row>
-            <Row className='mt-4'>
+            <Row>
               <Col md={4}> </Col>
               <Col md={8}>
                 <div className='sub-heading bridesmaid-heading'>Team Bride</div>

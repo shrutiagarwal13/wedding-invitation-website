@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wedding-invitation-website/static/css/main.53ee1765.chunk.css",
-    "main.js": "/wedding-invitation-website/static/js/main.d5817bf2.chunk.js",
-    "main.js.map": "/wedding-invitation-website/static/js/main.d5817bf2.chunk.js.map",
+    "main.css": "/wedding-invitation-website/static/css/main.fbb8f015.chunk.css",
+    "main.js": "/wedding-invitation-website/static/js/main.28f75141.chunk.js",
+    "main.js.map": "/wedding-invitation-website/static/js/main.28f75141.chunk.js.map",
     "runtime-main.js": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js",
     "runtime-main.js.map": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js.map",
     "static/js/2.f5969aac.chunk.js": "/wedding-invitation-website/static/js/2.f5969aac.chunk.js",
     "static/js/2.f5969aac.chunk.js.map": "/wedding-invitation-website/static/js/2.f5969aac.chunk.js.map",
     "index.html": "/wedding-invitation-website/index.html",
-    "static/css/main.53ee1765.chunk.css.map": "/wedding-invitation-website/static/css/main.53ee1765.chunk.css.map",
+    "static/css/main.fbb8f015.chunk.css.map": "/wedding-invitation-website/static/css/main.fbb8f015.chunk.css.map",
     "static/js/2.f5969aac.chunk.js.LICENSE.txt": "/wedding-invitation-website/static/js/2.f5969aac.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/wedding-invitation-website/static/media/wood-bg1.0b590690.jpeg",
+    "static/media/index.css": "/wedding-invitation-website/static/media/rsvp-bg.5d0b63bf.jpg",
     "static/media/aarohi.f7638303.jpeg": "/wedding-invitation-website/static/media/aarohi.f7638303.jpeg",
     "static/media/aazia.14cc8bc9.jpg": "/wedding-invitation-website/static/media/aazia.14cc8bc9.jpg",
     "static/media/abhinav.f599c6c8.jpeg": "/wedding-invitation-website/static/media/abhinav.f599c6c8.jpeg",
@@ -64,7 +64,7 @@
   "entrypoints": [
     "static/js/runtime-main.8491a7bb.js",
     "static/js/2.f5969aac.chunk.js",
-    "static/css/main.53ee1765.chunk.css",
-    "static/js/main.d5817bf2.chunk.js"
+    "static/css/main.fbb8f015.chunk.css",
+    "static/js/main.28f75141.chunk.js"
   ]
 }

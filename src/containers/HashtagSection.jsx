@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+// import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
@@ -19,7 +19,7 @@ const HashtagSection = () => {
       </div>
       <div className='hashtag-icons mx-auto'>
         <span>
-          <a href='https://www.instagram.com/' target='_blank'>
+          <a href='https://www.instagram.com/' target='_blank' rel='noreferrer'>
             <FontAwesomeIcon
               icon={faInstagram}
               className='social-icon mr-4'
@@ -27,7 +27,7 @@ const HashtagSection = () => {
           </a>
         </span>
         <span>
-          <a href='https://www.facebook.com/' target='_blank'>
+          <a href='https://www.facebook.com/' target='_blank' rel='noreferrer'>
             <FontAwesomeIcon icon={faFacebook} className='social-icon' />
           </a>
         </span>

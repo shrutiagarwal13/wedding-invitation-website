@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/wedding-invitation-website/static/css/main.c7f91874.chunk.css",
-    "main.js": "/wedding-invitation-website/static/js/main.4b971367.chunk.js",
-    "main.js.map": "/wedding-invitation-website/static/js/main.4b971367.chunk.js.map",
+    "main.css": "/wedding-invitation-website/static/css/main.16fc5c7e.chunk.css",
+    "main.js": "/wedding-invitation-website/static/js/main.89026871.chunk.js",
+    "main.js.map": "/wedding-invitation-website/static/js/main.89026871.chunk.js.map",
     "runtime-main.js": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js",
     "runtime-main.js.map": "/wedding-invitation-website/static/js/runtime-main.8491a7bb.js.map",
     "static/js/2.d1610798.chunk.js": "/wedding-invitation-website/static/js/2.d1610798.chunk.js",
     "static/js/2.d1610798.chunk.js.map": "/wedding-invitation-website/static/js/2.d1610798.chunk.js.map",
     "index.html": "/wedding-invitation-website/index.html",
-    "static/css/main.c7f91874.chunk.css.map": "/wedding-invitation-website/static/css/main.c7f91874.chunk.css.map",
+    "static/css/main.16fc5c7e.chunk.css.map": "/wedding-invitation-website/static/css/main.16fc5c7e.chunk.css.map",
     "static/js/2.d1610798.chunk.js.LICENSE.txt": "/wedding-invitation-website/static/js/2.d1610798.chunk.js.LICENSE.txt",
     "static/media/index.css": "/wedding-invitation-website/static/media/sheer-window-curtains-white-gold-vintage-wallpaper.jpg.516a731c.jpg",
     "static/media/aarohi.f7638303.jpeg": "/wedding-invitation-website/static/media/aarohi.f7638303.jpeg",
@@ -19,7 +19,7 @@
     "static/media/arjun.37b2c3be.jpg": "/wedding-invitation-website/static/media/arjun.37b2c3be.jpg",
     "static/media/arunima.3208a8fb.jpg": "/wedding-invitation-website/static/media/arunima.3208a8fb.jpg",
     "static/media/chaitanya-pic.227a4fd5.jpeg": "/wedding-invitation-website/static/media/chaitanya-pic.227a4fd5.jpeg",
-    "static/media/chaitanya.5cad7012.png": "/wedding-invitation-website/static/media/chaitanya.5cad7012.png",
+    "static/media/chaitanya2.221a2f1a.png": "/wedding-invitation-website/static/media/chaitanya2.221a2f1a.png",
     "static/media/chaitanya_parents.ff85dcda.jpg": "/wedding-invitation-website/static/media/chaitanya_parents.ff85dcda.jpg",
     "static/media/chirag.28fc41f7.jpg": "/wedding-invitation-website/static/media/chirag.28fc41f7.jpg",
     "static/media/dishi.6736c3aa.jpeg": "/wedding-invitation-website/static/media/dishi.6736c3aa.jpeg",
@@ -29,13 +29,12 @@
     "static/media/kashvi.4b76717d.jpg": "/wedding-invitation-website/static/media/kashvi.4b76717d.jpg",
     "static/media/lamp1.14fa6830.png": "/wedding-invitation-website/static/media/lamp1.14fa6830.png",
     "static/media/lamp2.87acc37e.png": "/wedding-invitation-website/static/media/lamp2.87acc37e.png",
-    "static/media/main-title-names1.8b329bf1.png": "/wedding-invitation-website/static/media/main-title-names1.8b329bf1.png",
     "static/media/manish_kriti.1729fbf5.jpeg": "/wedding-invitation-website/static/media/manish_kriti.1729fbf5.jpeg",
     "static/media/maulik.15e21029.jpg": "/wedding-invitation-website/static/media/maulik.15e21029.jpg",
     "static/media/mudit.d49ca293.jpeg": "/wedding-invitation-website/static/media/mudit.d49ca293.jpeg",
     "static/media/nav.6be024f5.jpg": "/wedding-invitation-website/static/media/nav.6be024f5.jpg",
     "static/media/pragya-pic.67b185e2.jpeg": "/wedding-invitation-website/static/media/pragya-pic.67b185e2.jpeg",
-    "static/media/pragya.6430ceca.png": "/wedding-invitation-website/static/media/pragya.6430ceca.png",
+    "static/media/pragya2.bf188cee.png": "/wedding-invitation-website/static/media/pragya2.bf188cee.png",
     "static/media/pragya_brother.83871a1e.jpeg": "/wedding-invitation-website/static/media/pragya_brother.83871a1e.jpeg",
     "static/media/pragya_parents.cd952589.jpg": "/wedding-invitation-website/static/media/pragya_parents.cd952589.jpg",
     "static/media/praneta1.33d7cbff.jpeg": "/wedding-invitation-website/static/media/praneta1.33d7cbff.jpeg",
@@ -54,6 +53,7 @@
     "static/media/sonal.7292f1ca.jpg": "/wedding-invitation-website/static/media/sonal.7292f1ca.jpg",
     "static/media/srishti.63a9b017.jpeg": "/wedding-invitation-website/static/media/srishti.63a9b017.jpeg",
     "static/media/suyash.eb161657.jpeg": "/wedding-invitation-website/static/media/suyash.eb161657.jpeg",
+    "static/media/text-1633725554538.9b74edcc.png": "/wedding-invitation-website/static/media/text-1633725554538.9b74edcc.png",
     "static/media/vasu.2296aeb9.jpg": "/wedding-invitation-website/static/media/vasu.2296aeb9.jpg",
     "static/media/vikas.8de956da.jpg": "/wedding-invitation-website/static/media/vikas.8de956da.jpg",
     "static/media/vikram1.5113fe64.jpeg": "/wedding-invitation-website/static/media/vikram1.5113fe64.jpeg",
@@ -64,7 +64,7 @@
   "entrypoints": [
     "static/js/runtime-main.8491a7bb.js",
     "static/js/2.d1610798.chunk.js",
-    "static/css/main.c7f91874.chunk.css",
-    "static/js/main.4b971367.chunk.js"
+    "static/css/main.16fc5c7e.chunk.css",
+    "static/js/main.89026871.chunk.js"
   ]
 }

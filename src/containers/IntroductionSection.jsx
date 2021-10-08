@@ -15,7 +15,7 @@ Couldn’t have asked for a better life partner than Pragya. Both of us being fr
 <div>
 <p>
 Microbiologist by profession, nature lover and enjoy watching movies in my leisure time. I like to travel and explore new places. </p>
-<p>Chaitanya, from the very first moment we met, I hoped it would be you, I have carried around the image of you in my heart my whole life. From this day onwards, you shall not walk alone. As I have given you my hand to hold, I give you my life to keep. I can't wait to celebrate our wedding day with you.
+<p>Chaitanya, from the very first moment we met, I hoped it would be you, I've carried around the image of you in my heart my whole life. From this day onwards, you shall not walk alone. As I have given you my hand to hold, I give you my life to keep. I can't wait to celebrate our wedding day with you.
 </p>
 </div>
 

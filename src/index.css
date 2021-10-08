@@ -254,21 +254,25 @@ html {
 
 .introduction-section {
   /* background-image: url('./images/image.jpg'); */
-  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/Screenshot 2021-10-07 at 21.37.38.png');
+  /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/Screenshot 2021-10-07 at 21.37.38.png');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/15130b7c6419da0f4f2bc281a8dc4b9e.jpeg');
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
   /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/2ec7b332fd6ad908ff4933fa4a8ac04c.jpeg');
   background-size: contain; */
   /* background-repeat: repeat-y; */
 
   background-position: top center;
-  padding-bottom: 7%;
+  padding-bottom: 3%;
 }
 
 .intro-heading {
   /* padding-top: 3%; */
   /* padding-bottom: 3%; */
-  color: #f9dbe8;
+  color: ivory;
 }
 
 .intro-cards {
@@ -287,9 +291,14 @@ html {
   margin: auto;
   margin-bottom: 30px;
   border-radius: 6px;
-  background-color: transparent !important;
+  background-color: rgba(26, 2, 2, 0.7);
+  background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png');
+
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
   /* border-color: #86361a !important; */
-  border-color: #f9dbe8 !important;
+  border-color: ivory !important;
   border-width: 4px !important;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%),
     0 1px 5px 0 rgb(0 0 0 / 12%);
@@ -309,7 +318,7 @@ html {
   /* border-color: #86361a !important; */
   border-width: 4px !important;
   /* border: 4px solid #86361a; */
-  border: 4px solid #f9dbe8;
+  border: 4px solid ivory;
   /* box-shadow: 0 16px 38px -12px rgb(0 0 0 / 56%),
     0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%); */
   transition-duration: 0.15s;
@@ -341,7 +350,7 @@ html {
   font-size: 2rem;
   font-family: 'Cassandra', cursive;
   /* color: #3d060d; */
-  color: white;
+  color: ivory;
 }
 .card-caption,
 .card-caption a {
@@ -622,11 +631,11 @@ html {
 
   /* border-radius: 100%; */
   margin-right: 1.5%;
-  background-color: rgba(243, 189, 189, 0.7);
+  background-color: rgba(247, 142, 142, 0.7);
 }
 
 .friends-section .carousel-indicators .active {
-  background-color: #7e1427;
+  background-color: #5f1523;
 }
 
 .friends-card {
@@ -884,19 +893,45 @@ html {
 .hashtag-section {
   /* background-image: url('../src/images/wood-bg1.jpeg'); */
   /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/pink-pastel-wood-background-pink-pastel-color-wood-texture-background-110284841.jpeg'); */
-  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/elegant-wood-planks-background-nicely-illuminated-spotlights-to-draw-attention-63018708.jpeg');
-  background-size: cover;
-  background-position: top center;
+  /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/elegant-wood-planks-background-nicely-illuminated-spotlights-to-draw-attention-63018708.jpeg'); */
+  background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/15130b7c6419da0f4f2bc281a8dc4b9e.jpeg');
+  background-attachment: fixed;
+  /* background-size: cover; */
+  /* background-position: top center; */
   padding: 2%;
-  font-size: 5.5vmax;
+  /* font-size: 6vmax;
   /* font-weight: 600; */
-  color: #f1e5e8;
+  /* color: #f1e5e8;
   text-align: center;
-  font-family: Chalk, 'Red Rose', 'Montserrat', sans-serif;
+  font-family: Chalk, 'Red Rose', 'Montserrat', sans-serif; */
   border: 10px solid #f1e5e8;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+}
+
+.hashtag-section .hashtag {
+  font-size: 6vmax;
+  /* font-weight: 600; */
+  color: #f1e5e8;
+  text-align: center;
+  font-family: Chalk, 'Red Rose', 'Montserrat', sans-serif;
+}
+
+.hashtag-section .hashtag-icons {
+  text-align: center;
+  font-size: 3vmax;
+  color: #f1e5e8;
+  /* display: block; */
+  /* margin: auto; */
+}
+
+.hashtag-section a {
+  color: #f1e5e8 !important;
+}
+
+.hashtag-section a:hover {
+  color: #bbadb1 !important;
 }
 
 /* ------------- MEDIA QUERIES ----------------------- */
@@ -1053,9 +1088,9 @@ html {
   }
 
   .introduction-section {
-    background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/2ec7b332fd6ad908ff4933fa4a8ac04c.jpeg');
+    /* background-image: url('/Users/shruti/Desktop/Web Development/wedding-invitation/src/images/2ec7b332fd6ad908ff4933fa4a8ac04c.jpeg');
     background-size: contain;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y; */
   }
 
   .card-profile,

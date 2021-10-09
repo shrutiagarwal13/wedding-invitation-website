@@ -43,7 +43,7 @@ const VenueSection = () => {
                   background={SangeetBG}
                   icon={SangeetIcon}
                   functionName='Sangeet & Ring Ceremony'
-                  date='Wednesday, 05/12/2021'
+                  date='Sunday, 05/12/2021'
                   time='7:00 PM onwards'
                   address={sangeetVenue}
                   mapsLink='https://www.google.com/maps/place/Hotel+Gala+Galaxy/@28.3865047,79.4297257,17z/data=!3m1!4b1!4m8!3m7!1s0x39a006e487f9ea43:0x92624108c9d74b25!5m2!4m1!1i2!8m2!3d28.3865032!4d79.4319166'
@@ -55,8 +55,8 @@ const VenueSection = () => {
                   background={WeddingBG}
                   icon={WeddingIcon}
                   functionName='The Wedding'
-                  date='Thursday, 06/12/2021'
-                  time='8:00PM onwards'
+                  date='Monday, 06/12/2021'
+                  time='7:00PM onwards'
                   address={weddingVenue}
                   mapsLink='https://www.google.com/maps/place/Masumi+Farm+House+-+Best+Wedding+Venue+in+Bareilly/@28.4310737,79.4797722,15z/data=!4m2!3m1!1s0x0:0x11e112e225c81780?sa=X&ved=2ahUKEwiVuPnBhKfzAhWHcn0KHR7PCh4Q_BJ6BAhkEAU'
                 />

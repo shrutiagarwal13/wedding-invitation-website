@@ -22,7 +22,9 @@ const InviteContainer = () => {
                 auspicious occasion of marriage of
               </div>
               <div></div>
-              <div className='invitation-names'>Pragya & Chaitanya</div>
+              <div className='invitation-names'>
+                Pragya <span>&</span> Chaitanya
+              </div>
               <div className='assisting-text'>on</div>
               <div className='invitation-date assisting-text'>
                 06 December 2021
